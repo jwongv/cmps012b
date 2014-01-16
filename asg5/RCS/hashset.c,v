@@ -1,0 +1,2473 @@
+head	1.128;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.128
+date	2012.12.08.01.32.08;	author -;	state -;
+branches;
+next	1.127;
+
+1.127
+date	2012.12.08.01.31.35;	author -;	state -;
+branches;
+next	1.126;
+
+1.126
+date	2012.12.08.01.30.09;	author -;	state -;
+branches;
+next	1.125;
+
+1.125
+date	2012.12.08.01.29.57;	author -;	state -;
+branches;
+next	1.124;
+
+1.124
+date	2012.12.08.01.22.22;	author -;	state -;
+branches;
+next	1.123;
+
+1.123
+date	2012.12.08.01.21.19;	author -;	state -;
+branches;
+next	1.122;
+
+1.122
+date	2012.12.08.01.20.35;	author -;	state -;
+branches;
+next	1.121;
+
+1.121
+date	2012.12.08.01.19.38;	author -;	state -;
+branches;
+next	1.120;
+
+1.120
+date	2012.12.08.01.19.03;	author -;	state -;
+branches;
+next	1.119;
+
+1.119
+date	2012.12.08.01.17.22;	author -;	state -;
+branches;
+next	1.118;
+
+1.118
+date	2012.12.08.00.51.45;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2012.12.08.00.51.05;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2012.12.08.00.49.27;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2012.12.08.00.44.14;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2012.12.08.00.43.12;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2012.12.08.00.42.26;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2012.12.08.00.40.45;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2012.12.08.00.39.18;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2012.12.08.00.16.31;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2012.12.08.00.15.23;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2012.12.08.00.11.40;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2012.12.08.00.09.22;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2012.12.08.00.03.20;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2012.12.08.00.00.03;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2012.12.07.23.58.47;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2012.12.07.20.54.47;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2012.12.07.20.33.08;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2012.12.07.20.32.44;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2012.12.07.20.32.29;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2012.12.07.20.18.42;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2012.12.07.20.17.45;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2012.12.07.20.16.25;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2012.12.07.20.16.01;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2012.12.07.20.14.57;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2012.12.07.20.09.36;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2012.12.07.20.07.45;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2012.12.07.20.02.19;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2012.12.07.19.54.12;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2012.12.07.19.51.43;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2012.12.07.19.50.03;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2012.12.07.19.47.05;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2012.12.07.19.46.32;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2012.12.07.19.45.45;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2012.12.07.19.40.08;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2012.12.07.19.39.45;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2012.12.07.12.31.50;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2012.12.07.12.29.49;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2012.12.07.12.28.31;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2012.12.07.12.28.05;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2012.12.07.12.25.27;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2012.12.07.12.04.09;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2012.12.07.12.02.39;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2012.12.07.11.56.17;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2012.12.07.11.55.48;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2012.12.07.11.54.48;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2012.12.07.11.53.17;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2012.12.07.11.52.34;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2012.12.07.11.51.15;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2012.12.07.11.50.53;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2012.12.07.11.50.37;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2012.12.07.11.50.04;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2012.12.07.11.43.15;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2012.12.07.11.41.10;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2012.12.07.11.39.02;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2012.12.07.11.35.09;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2012.12.07.11.34.48;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2012.12.07.11.33.33;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2012.12.07.11.32.32;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2012.12.07.11.31.55;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2012.12.07.11.30.06;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2012.12.07.11.29.40;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2012.12.07.11.21.23;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2012.12.07.11.19.40;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2012.12.07.11.17.02;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2012.12.07.11.14.47;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2012.12.07.11.12.46;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2012.12.07.11.12.00;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2012.12.07.11.06.09;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2012.12.07.11.05.21;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2012.12.07.11.03.04;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2012.12.07.11.02.13;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2012.12.07.10.59.39;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2012.12.07.10.58.27;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2012.12.07.10.57.42;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2012.12.07.10.56.53;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2012.12.07.10.55.26;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2012.12.07.10.53.28;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2012.12.07.10.43.53;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2012.12.07.10.42.40;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2012.12.07.10.39.57;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2012.12.07.10.35.56;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2012.12.07.10.33.24;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2012.12.07.10.31.23;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2012.12.07.10.30.41;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2012.12.07.10.30.15;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2012.12.07.10.29.03;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2012.12.07.10.25.42;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2012.12.07.10.24.42;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2012.12.07.10.23.07;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2012.12.07.10.19.48;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2012.12.07.10.19.37;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2012.12.07.10.12.44;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2012.12.07.10.05.21;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2012.12.07.09.58.41;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2012.12.07.09.52.12;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2012.12.07.09.51.04;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2012.12.07.09.50.25;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2012.12.07.09.48.59;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2012.12.07.08.43.34;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2012.12.07.08.41.45;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2012.12.07.08.39.04;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2012.12.07.08.31.38;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2012.12.07.08.22.27;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2012.12.07.08.13.17;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2012.12.07.08.11.13;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2012.12.07.08.09.59;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2012.12.07.08.08.14;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2012.12.07.08.07.52;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2012.12.07.07.53.28;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.12.07.07.50.16;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.12.07.07.49.00;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.12.07.07.48.41;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.12.07.07.44.43;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.12.07.06.58.37;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.12.07.06.53.14;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.12.07.06.51.54;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.11.28.02.50.54;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.11.17.02.05.22;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.128
+log
+@-
+@
+text
+@// $Id: hashset.c,v 1.119 2012-12-07 17:17:22-08 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// Michael Ungerer - mungerer@@ucsc.edu
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "debugf.h"
+#include "hashset.h"
+#include "strhash.h"
+
+#define HASH_NEW_SIZE 15
+
+struct hashset {
+   size_t length;
+   int load;
+   char **array;
+};
+
+hashset_ref new_hashset (void) {
+   hashset_ref new = malloc (sizeof (struct hashset));
+   assert (new != NULL);
+   new->length = HASH_NEW_SIZE;
+   new->load = 0;
+   new->array = malloc (new->length * sizeof (char*));
+   assert (new->array != NULL);
+   for (size_t index = 0; index < new->length; ++index) {
+      new->array[index] = NULL;
+   }
+   DEBUGF ('h', "%p -> struct hashset {length = %d, array=%p}\n",
+                new, new->length, new->array);
+   return new;
+}
+
+void free_hashset (hashset_ref hashset) {
+   DEBUGF ('h', "free (%p), free (%p)\n", hashset->array, hashset);
+   for (size_t i = 0; i < hashset->length; i++){
+      free (hashset->array[i]);
+   }
+   memset (hashset->array, 0, hashset->length * sizeof (char*));
+   free (hashset->array);
+   memset (hashset, 0, sizeof (struct hashset));
+   free (hashset);
+}
+
+void put_hashset (hashset_ref hashset, char *item) {
+   if (too_full_hash (hashset)) double_array_hash (hashset);
+   hashcode_t index = strhash (item) % hashset->length;
+   while (hashset->array[index] != NULL) {
+      if (strcmp (hashset->array[index], item) == 0) return;
+      index = (index + 1) % hashset->length;
+   }
+   hashset->array[index] = strdup (item);
+   ++hashset->load;
+}
+
+void double_array_hash (hashset_ref hashset){
+   char **old = hashset->array;
+   size_t newlength = hashset->length * 2 + 1;
+   char **tmparray = malloc ((newlength) * sizeof (char*));
+   assert (tmparray != NULL);
+   for (size_t index = 0; index < newlength ; ++index){
+      tmparray[index] = NULL;
+   }
+   for (size_t i = 0; i < hashset->length  ; ++i){
+      if (hashset->array[i] != NULL){
+         hashcode_t newindex = strhash (hashset->array[i]) % newlength;
+         while (tmparray[newindex] != NULL){
+            newindex = (newindex +1) % newlength;
+         }
+      tmparray[newindex] = strdup (hashset->array[i]);
+      }
+   }
+   for (size_t i = 0; i < hashset->length; i++){
+      free(hashset->array[i]);
+   }
+   free(old);
+   hashset->array = tmparray;
+   hashset->length = newlength;
+}
+
+
+void clusters (hashset_ref hashset, int xoptcounter){
+   int *clusterarray = malloc (hashset->length/4 * (sizeof (int)));
+   for (int i = 0; i < (int32_t) (hashset->length/4 ); ++i){
+      clusterarray[i] = 0;
+   }
+   int cindex = 0;
+   int cindex2 = 0;
+   while (cindex2 < (int32_t)hashset->length - 1){
+      int counter = 0;
+      for (;hashset->array[cindex] == NULL; ++cindex){      
+      ++cindex2;
+      }
+      for (;hashset->array[cindex] != NULL;
+            cindex = (cindex +1) % (int32_t)hashset->length){
+         ++counter;
+         ++cindex2;
+      }
+   ++clusterarray[counter];
+   }
+   for (int i = 0; i< (int32_t)(hashset->length/4 ); ++i){
+      if (clusterarray[i] > 0)
+         printf ("%10d clusters of size %d\n", clusterarray[i], i);
+   }
+   if (xoptcounter > 1){
+      for (int i = 0; i < (int32_t)hashset->length; i++){
+         if (hashset->array[i] != NULL)
+            printf ("array[%10d] = %12u \"%s\"\n", i,
+                    strhash(hashset->array[i]), hashset->array[i] );
+      }
+   }
+   free(clusterarray);
+}
+
+bool too_full_hash (hashset_ref hashset){
+   if (hashset->load * 4 > (int32_t) hashset->length) return true;
+   return false;
+}
+
+bool has_hashset (hashset_ref hashset, char *item) {
+   hashcode_t index = strhash (item) % hashset->length;
+   while (hashset->array[index] != NULL){
+      if (strcmp(hashset->array[index], item) == 0)
+         return true;
+      index = (index + 1) % hashset->length;
+   }
+   return false;
+}
+
+@
+
+
+1.127
+log
+@-
+@
+text
+@d60 1
+a60 1
+   hashset_ref old = hashset->array;
+@
+
+
+1.126
+log
+@-
+@
+text
+@d60 1
+d79 2
+a80 2
+   free(hashset->array);
+   hashset->array = &tmparray[0];
+@
+
+
+1.125
+log
+@-
+@
+text
+@d79 1
+a79 1
+   hashset->array = &tmparray;
+@
+
+
+1.124
+log
+@-
+@
+text
+@d61 1
+a61 1
+   char **tmparray = malloc ((newlength) * (sizeof (char*)));
+d79 1
+a79 1
+   hashset->array = tmparray;
+d91 1
+a91 1
+   while (cindex2 < (int32_t)hashset->length ){
+@
+
+
+1.123
+log
+@-
+@
+text
+@d91 1
+a91 1
+   while (cindex2 < (int32_t)hashset->length - 1){
+@
+
+
+1.122
+log
+@-
+@
+text
+@d85 1
+a85 2
+//   int *clusterarray = malloc (hashset->length/4 * (sizeof (int)));
+   int clusterarray[hashset->length/4];
+@
+
+
+1.121
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t i = 0; i < hashset->length -1 ; ++i){
+d85 2
+a86 1
+   int *clusterarray = malloc (hashset->length/4 * (sizeof (int)));
+@
+
+
+1.120
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t i = 0; i < hashset->length  ; ++i){
+@
+
+
+1.119
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.118 2012-12-07 16:51:45-08 - - $
+d80 1
+a80 1
+   hashset->length = hashset->length * 2 + 1;
+a84 1
+   printf ("test");
+@
+
+
+1.118
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.116 2012-12-07 16:49:27-08 - - $
+d85 1
+@
+
+
+1.117
+log
+@-
+@
+text
+@d39 3
+a41 3
+//   for (size_t i = 0; i < hashset->length; i++){
+//      free (hashset->array[i]);
+//   }
+@
+
+
+1.116
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.115 2012-12-07 16:44:14-08 - - $
+d39 3
+a41 3
+   for (size_t i = 0; i < hashset->length; i++){
+      free (hashset->array[i]);
+   }
+d75 4
+a78 4
+//   for (size_t i = 0; i < hashset->length; i++){
+//      free(hashset->array[i]);
+//   }
+//   free(hashset->array);
+@
+
+
+1.115
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.114 2012-12-07 16:43:12-08 - - $
+d75 4
+a78 4
+   for (size_t i = 0; i < hashset->length; i++){
+      free(hashset->array[i]);
+   }
+   free(hashset->array);
+a85 1
+   printf("test");
+@
+
+
+1.114
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.113 2012-12-07 16:42:26-08 - - $
+a19 1
+   int *clusterarray;
+d86 1
+@
+
+
+1.113
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.112 2012-12-07 16:40:45-08 - - $
+d20 1
+d115 1
+a115 1
+//   free(clusterarray);
+@
+
+
+1.112
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.111 2012-12-07 16:39:18-08 - - $
+d114 1
+a114 1
+   free(clusterarray);
+@
+
+
+1.111
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.110 2012-12-07 16:16:31-08 - - $
+a112 1
+            free(clusterarray);
+d114 1
+@
+
+
+1.110
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: hashset.c,v 1.109 2012-12-07 16:15:23-08 - - $
+a19 1
+//   int *clusterarray;
+@
+
+
+1.109
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.108 2012-12-07 16:11:40-08 - - $
+a110 1
+            free(clusterarray[i]);
+@
+
+
+1.108
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.107 2012-12-07 16:09:22-08 - - $
+d111 1
+d113 1
+@
+
+
+1.107
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.106 2012-12-07 16:03:20-08 - - $
+d38 3
+@
+
+
+1.106
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.105 2012-12-07 16:00:03-08 - - $
+d71 3
+@
+
+
+1.105
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.104 2012-12-07 15:58:47-08 - - $
+d18 1
+a18 1
+   int *clusterarray;
+@
+
+
+1.104
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.103 2012-12-07 12:54:47-08 - - $
+a52 5
+//   printf ("put :%sin hash!\n",item);
+//   printf ("%d\n", index);
+//   hashcode_t index2 = strhash(item) % (hashset->length*2 +1);
+//   printf ("%d\n", index2);
+//   maybe fix index searching reindex????
+a59 1
+   //initialize all to NULL
+a70 7
+//   for (size_t index = 0; index < (hashset->length) - 1; ++index) {
+//      tmparray[index] = (hashset->array[index]);
+
+//   }
+//   for (size_t index = hashset->length - 1 ; index < hashset->length *2 + 1 ; ++index){
+//      tmparray[index] = NULL;
+//   }
+a75 7
+void printhash(hashset_ref hashset){
+//    for (size_t i = 0; i<hashset->length-1; i++){
+   //    if (hashset->array[i] != NULL)
+//        printf ("%s\n", hashset->array[i]);
+//    }
+//    printf ("%d\n", hashset->length);
+}
+a86 1
+//      printf("1");
+a87 1
+//      printf("cindex: %d \n",cindex);
+a90 1
+//         printf("2");
+a92 1
+//         printf("counter: %d\n", counter);
+@
+
+
+1.103
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.71 2012-12-07 03:51:15-08 - - $
+d122 1
+a122 1
+         printf ("%d clusters of size %d\n", clusterarray[i], i);
+@
+
+
+1.102
+log
+@-
+@
+text
+@d111 2
+a112 1
+      for (;hashset->array[cindex] != NULL; cindex = (cindex +1) % (int32_t)hashset->length){
+@
+
+
+1.101
+log
+@-
+@
+text
+@d124 1
+a124 1
+      for (int i = 0; i < hashset->length; i++){
+@
+
+
+1.100
+log
+@-
+@
+text
+@d124 1
+a124 1
+      for (int i = 0; i < hash->length; i++){
+@
+
+
+1.99
+log
+@-
+@
+text
+@d97 1
+a97 1
+void clusters (hashset_ref hashset){
+d104 1
+a104 1
+   while (cindex2 < (int32_t)hashset->length ){
+d123 7
+@
+
+
+1.98
+log
+@-
+@
+text
+@d104 1
+a104 1
+   while (cindex2 < (int32_t)hashset->length -1){
+@
+
+
+1.97
+log
+@-
+@
+text
+@d99 1
+a99 1
+   for (int i = 0; i < (int32_t) (hashset->length/4 -1); ++i){
+d119 1
+a119 1
+   for (int i = 0; i< (int32_t)(hashset->length/4 -1); ++i){
+@
+
+
+1.96
+log
+@-
+@
+text
+@d99 1
+a99 1
+   for (int i = 0; i < (int32_t) (hashset->length/4 ); ++i){
+d104 1
+a104 1
+   while (cindex2 < (int32_t)hashset->length){
+d119 1
+a119 1
+   for (int i = 0; i< (int32_t)(hashset->length/4); ++i){
+@
+
+
+1.95
+log
+@-
+@
+text
+@d99 1
+a99 1
+   for (int i = 0; i < (int32_t) (hashset->length/4 - 1); ++i){
+d104 1
+a104 1
+   while (cindex2 < (int32_t)hashset->length -1){
+d119 1
+a119 1
+   for (int i = 0; i< (int32_t)(hashset->length/4 -1); ++i){
+@
+
+
+1.94
+log
+@-
+@
+text
+@d68 1
+a68 1
+   for (size_t i = 0; i < hashset->length - 1 ; ++i){
+@
+
+
+1.93
+log
+@-
+@
+text
+@d64 1
+a64 1
+   for (size_t index = 0; index < newlength - 1; ++index){
+d68 1
+a68 1
+   for (size_t i = 0; i < hashset->length ; ++i){
+@
+
+
+1.92
+log
+@-
+@
+text
+@d65 1
+d68 1
+a68 1
+   for (size_t i = 0; i < hashset->length - 1; ++i){
+@
+
+
+1.91
+log
+@-
+@
+text
+@d106 1
+a106 1
+      printf("1");
+d108 1
+a108 1
+      printf("cindex: %d \n",cindex);
+d111 1
+a111 1
+         printf("2");
+d114 1
+a114 1
+         printf("counter: %d\n", counter);
+@
+
+
+1.90
+log
+@-
+@
+text
+@d103 1
+a103 1
+   while (cindex2 < (int32_t)hashset->length){
+@
+
+
+1.89
+log
+@-
+@
+text
+@d98 1
+a98 1
+   for (int i = 1; i < (int32_t) (hashset->length/4 - 1); ++i){
+@
+
+
+1.88
+log
+@-
+@
+text
+@d108 1
+d114 1
+@
+
+
+1.87
+log
+@-
+@
+text
+@d106 1
+a106 1
+      printf("hi");
+d110 1
+a110 1
+         printf("ngajrkegnjtgne");
+@
+
+
+1.86
+log
+@-
+@
+text
+@d112 1
+@
+
+
+1.85
+log
+@-
+@
+text
+@d98 1
+a98 1
+   for (int i = 0; i < (int32_t) (hashset->length/4 - 1); ++i){
+d101 3
+a103 2
+   int clusterindex = 0;
+   while (clusterindex < (int32_t)hashset->length){
+d105 1
+a105 1
+      for (;hashset->array[clusterindex] == NULL; ++clusterindex){      
+d107 1
+d109 1
+a109 1
+      for (;hashset->array[clusterindex] != NULL; clusterindex = (clusterindex +1) % (int32_t)hashset->length){
+@
+
+
+1.84
+log
+@-
+@
+text
+@d104 1
+a104 1
+      for (;hashset->array[cindex] == NULL; ++clusterindex){      
+@
+
+
+1.83
+log
+@-
+@
+text
+@d108 1
+@
+
+
+1.82
+log
+@-
+@
+text
+@d101 2
+a102 2
+   int cindex = 0;
+   while (cindex < (int32_t)hashset->length){
+d104 1
+a104 1
+      for (;hashset->array[cindex] == NULL; ++cindex){      
+d107 1
+a107 1
+      for (;hashset->array[cindex] != NULL; cindex = (cindex +1) % (int32_t)hashset->length){
+@
+
+
+1.81
+log
+@-
+@
+text
+@d89 1
+a89 1
+    for (size_t i = 0; i<hashset->length-1; i++){
+d91 3
+a93 3
+        printf ("%s\n", hashset->array[i]);
+    }
+    printf ("%d\n", hashset->length);
+@
+
+
+1.80
+log
+@-
+@
+text
+@d90 1
+a90 1
+       if (hashset->array[i] != NULL)
+@
+
+
+1.79
+log
+@-
+@
+text
+@d67 1
+a67 1
+   for (size_t i = 0; i < newlength - 1; ++i){
+@
+
+
+1.78
+log
+@-
+@
+text
+@d61 2
+a62 1
+   char **tmparray = malloc ((hashset->length*2+1) * (sizeof (char*)));
+d64 2
+a65 3
+   for (size_t index = 0; index < (hashset->length) - 1; ++index) {
+      tmparray[index] = (hashset->array[index]);
+
+d67 8
+a74 2
+   for (size_t index = hashset->length - 1 ; index < hashset->length *2 + 1 ; ++index){
+      tmparray[index] = NULL;
+d76 7
+@
+
+
+1.77
+log
+@-
+@
+text
+@d80 1
+@
+
+
+1.76
+log
+@-
+@
+text
+@d77 1
+a77 1
+    //   if (hashset->array[i] != NULL)
+@
+
+
+1.75
+log
+@-
+@
+text
+@d77 2
+a78 1
+       if (hashset->array[i] != NULL) printf ("%s\n", hashset->array[i]);
+@
+
+
+1.74
+log
+@-
+@
+text
+@d64 2
+a65 3
+      if (hashset->array[index] != NULL)
+      tmparray[index] = strdup(hashset->array[index]);
+      else tmparray[index] = NULL;
+@
+
+
+1.73
+log
+@-
+@
+text
+@d78 1
+a78 1
+       printf ("%s\n", hashset->array[i]);
+@
+
+
+1.72
+log
+@-
+@
+text
+@d45 1
+a45 1
+//   if (too_full_hash (hashset)) double_array_hash (hashset);
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.70 2012-12-07 03:50:53-08 - - $
+d45 1
+a45 1
+   if (too_full_hash (hashset)) double_array_hash (hashset);
+@
+
+
+1.70
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.69 2012-12-07 03:50:37-08 - - $
+d78 1
+a78 1
+       printf ("%d\n", hashset->array[i]);
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.68 2012-12-07 03:50:04-08 - - $
+d77 1
+a77 1
+    for (int i = 0; i<hashset->length-1; i++){
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.16 2012-12-07 00:22:27-08 - - $
+d77 2
+a78 2
+    for (int i = 0; i<hashref->length-1; i++){
+       printf ("%d\n", hashref->array[i]);
+@
+
+
+1.67
+log
+@-
+@
+text
+@d64 1
+a64 1
+      if (hashset->array[index] != NULL){
+a65 2
+      printf("strdupd");
+      }
+d76 6
+d91 1
+a91 1
+    //  printf("hi");
+@
+
+
+1.66
+log
+@-
+@
+text
+@d64 1
+a64 1
+      if (hashset->array[index] != NULL)
+d66 2
+d87 1
+a87 1
+      printf("hi");
+@
+
+
+1.65
+log
+@-
+@
+text
+@d64 3
+a66 1
+      tmparray[index] = (hashset->array[index]);
+@
+
+
+1.64
+log
+@-
+@
+text
+@d64 1
+a64 1
+      tmparray[index] = strdup((hashset->array[index]));
+@
+
+
+1.63
+log
+@-
+@
+text
+@d45 1
+a45 1
+//   if (too_full_hash (hashset)) double_array_hash (hashset);
+@
+
+
+1.62
+log
+@-
+@
+text
+@d64 1
+a64 1
+      tmparray[index] = (hashset->array[index]);
+@
+
+
+1.61
+log
+@-
+@
+text
+@d45 1
+a45 1
+   if (too_full_hash (hashset)) double_array_hash (hashset);
+@
+
+
+1.60
+log
+@-
+@
+text
+@d45 1
+a45 1
+//   if (too_full_hash (hashset)) double_array_hash (hashset);
+d83 1
+@
+
+
+1.59
+log
+@-
+@
+text
+@d45 1
+a45 1
+   if (too_full_hash (hashset)) double_array_hash (hashset);
+@
+
+
+1.58
+log
+@-
+@
+text
+@a81 1
+      printf ("%p\n", hashset->array[cindex]);
+@
+
+
+1.57
+log
+@-
+@
+text
+@d82 1
+@
+
+
+1.56
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = hashset->length ; index < hashset->length *2 ; ++index){
+@
+
+
+1.55
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = hashset->length - 1; index < hashset->length *2 ; ++index){
+@
+
+
+1.54
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = hashset->length - 1; index < hashset->length *2 + 1; ++index){
+@
+
+
+1.53
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = index; index < hashset->length * 2; ++index){
+@
+
+
+1.52
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (; index < hashset->length * 2; ++index){
+@
+
+
+1.51
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = hashset->length - 1; index < hashset->length *2 + 1; ++index){
+@
+
+
+1.50
+log
+@-
+@
+text
+@d66 1
+a66 1
+   for (size_t index = hashset->length; index < hashset->length *2 + 1; ++index){
+@
+
+
+1.49
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < (hashset->length); ++index) {
+@
+
+
+1.48
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < (hashset->length * 2 -2); ++index) {
+@
+
+
+1.47
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < (hashset->length * 2 -1); ++index) {
+@
+
+
+1.46
+log
+@-
+@
+text
+@d48 1
+a48 1
+      if (strcmp (hashset->array[index], item) != 0) return;
+@
+
+
+1.45
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < hashset->length * 2 +1; ++index) {
+@
+
+
+1.44
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < hashset->length * 2; ++index) {
+@
+
+
+1.43
+log
+@-
+@
+text
+@d61 1
+a61 1
+   char **tmparray = malloc (hashset->length * (sizeof (char*) * 2 + 1));
+@
+
+
+1.42
+log
+@-
+@
+text
+@d63 1
+a63 1
+   for (size_t index = 0; index < hashset->length * 2 + 1; ++index) {
+@
+
+
+1.41
+log
+@-
+@
+text
+@d63 2
+a64 3
+   for (size_t index = 0; index < hashset->length; ++index) {
+    tmparray[index] = (hashset->array[index]);
+//      memcpy (tmparray + index * sizeof(char*), hashset->array + index *sizeof(char*), sizeof(char*));
+@
+
+
+1.40
+log
+@-
+@
+text
+@d64 2
+a65 2
+//    tmparray[index] = (hashset->array[index]);
+      memcpy (tmparray + index * sizeof(char*), hashset->array + index *sizeof(char*), sizeof(char*));
+@
+
+
+1.39
+log
+@-
+@
+text
+@d64 2
+a65 1
+      tmparray[index] = strdup(hashset->array[index]);
+@
+
+
+1.38
+log
+@-
+@
+text
+@a61 3
+   for (size_t index = 0; index < hashset->length *2; ++index) {
+      tmparray[index] = NULL;
+   }
+d64 1
+a64 1
+      tmparray[index] = hashset->array[index];
+@
+
+
+1.37
+log
+@-
+@
+text
+@d78 1
+a78 1
+   int clusterarray[(int32_t)(hashset->length/4)];
+@
+
+
+1.36
+log
+@-
+@
+text
+@d62 1
+a62 1
+   for (size_t index = 0; index < hashset->length *2 - 1; ++index) {
+@
+
+
+1.35
+log
+@-
+@
+text
+@d62 1
+a62 1
+   for (size_t index = 0; index < hashset->length *2; ++index) {
+@
+
+
+1.34
+log
+@-
+@
+text
+@d63 1
+a63 1
+      clusterarray[index] = NULL;
+@
+
+
+1.33
+log
+@-
+@
+text
+@d62 1
+a62 1
+   for (size_t index = 0; index < new->length; ++index) {
+@
+
+
+1.32
+log
+@-
+@
+text
+@d62 3
+@
+
+
+1.31
+log
+@-
+@
+text
+@d75 1
+a75 1
+   int clusterarray[hashset->length/4];
+@
+
+
+1.30
+log
+@-
+@
+text
+@d75 3
+a77 4
+//   int clusterarray[hashset->length/4];
+   hashset->clusterarray = malloc ((hashset->length/4) * sizeof (int));
+   for (int i = 0; i < (int32_t)(hashset->length/4) - 1; ++i){
+      hashset->clusterarray[i] = 0;
+d79 2
+a80 2
+   size_t cindex = 0;
+   while (cindex < hashset->length){
+d84 1
+a84 1
+      for (;hashset->array[cindex] != NULL; cindex = (cindex +1) % hashset->length){
+d87 1
+a87 1
+   ++hashset->clusterarray[counter];
+d90 2
+a91 2
+      if (hashset->clusterarray[i] > 0)
+         printf ("%d clusters of size %d\n", hashset->clusterarray[i], i);
+@
+
+
+1.29
+log
+@-
+@
+text
+@d80 2
+a81 2
+   int cindex = 0;
+   while (cindex < (int32_t)hashset->length){
+d85 1
+a85 1
+      for (;hashset->array[cindex] != NULL; cindex = (cindex +1) % (int32_t)hashset->length){
+@
+
+
+1.28
+log
+@-
+@
+text
+@d77 1
+a77 1
+   for (int i = 0; i < (int32_t)(hashset->length/4) - 1); ++i){
+@
+
+
+1.27
+log
+@-
+@
+text
+@d77 1
+a77 1
+   for (int i = 0; i < (int32_t) (hashset->length/4 - 1); ++i){
+@
+
+
+1.26
+log
+@-
+@
+text
+@d18 1
+d75 2
+a76 1
+   int clusterarray[hashset->length/4];
+d78 1
+a78 1
+      clusterarray[i] = 0;
+d88 1
+a88 1
+   ++clusterarray[counter];
+d91 2
+a92 2
+      if (clusterarray[i] > 0)
+         printf ("%d clusters of size %d\n", clusterarray[i], i);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d60 1
+a60 1
+   char **tmparray = malloc (hashset->length * sizeof (char*) * 2 + 1);
+@
+
+
+1.24
+log
+@-
+@
+text
+@d52 2
+a53 2
+   printf ("put :%sin hash!\n",item);
+   printf ("%d\n", index);
+@
+
+
+1.23
+log
+@-
+@
+text
+@d83 1
+a83 1
+      for (;cindex != NULL; cindex = (cindex +1) % (int32_t)hashset->length){
+@
+
+
+1.22
+log
+@-
+@
+text
+@d83 1
+a83 1
+      for (;cindex != NULL; cindex = (cindex +1) % hashset->length){
+d88 1
+a88 1
+   for (int i = 0; i< hashset->length/4 -1; ++i){
+@
+
+
+1.21
+log
+@-
+@
+text
+@a70 1
+   ++rawr;
+d75 1
+a75 1
+   for (int i = 0; i <hashset->length/4 - 1; ++i){
+d79 1
+a79 1
+   while (cindex < hashset->length){
+@
+
+
+1.20
+log
+@-
+@
+text
+@a13 2
+int rawr = 0;
+
+d44 1
+a44 1
+   if (too_full_hash (hashset) && rawr <4) double_array_hash (hashset);
+d54 3
+a56 2
+   hashcode_t index2 = strhash(item) % (hashset->length*2 +1);
+   printf ("%d\n", index2);
+d74 21
+@
+
+
+1.19
+log
+@-
+@
+text
+@d56 1
+a56 1
+   hashcode_t index2 = index % hashset->length;
+@
+
+
+1.18
+log
+@-
+@
+text
+@d56 2
+@
+
+
+1.17
+log
+@-
+@
+text
+@d14 2
+d46 1
+a46 1
+   if (too_full_hash (hashset)) double_array_hash (hashset);
+d70 1
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.15 2012-12-07 00:13:17-08 - - $
+d53 1
+a53 1
+   printf ("%s\n", hashset->array[index]);
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.14 2012-12-07 00:11:13-08 - - $
+d57 1
+a57 1
+   char **tmparray = malloc (hashset->length * sizeof (char*) * 2);
+d62 1
+a62 1
+   for (size_t index = hashset->length; index < hashset->length *2; ++index){
+d67 1
+a67 1
+   hashset->length = hashset->length * 2;
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.13 2012-12-07 00:09:59-08 - - $
+d44 1
+a44 1
+   if (too_full_hash (hash)) double_array_hash (hash);
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.10 2012-12-06 23:53:28-08 - - $
+d44 1
+a44 1
+//   if (too_full_hash (hash)) double_array_hash (hash);
+d67 1
+@
+
+
+1.12
+log
+@-
+@
+text
+@d70 1
+a70 1
+   if (hashset->load * 4 > hashset->length) return true;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d70 1
+a70 1
+   if (load * 4 > length) return true;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.5 2012-12-06 22:58:37-08 - - $
+d12 1
+a12 1
+#define HASH_NEW_SIZE 10000
+d56 18
+@
+
+
+1.9
+log
+@-
+@
+text
+@d12 1
+a12 1
+#define HASH_NEW_SIZE 15
+@
+
+
+1.8
+log
+@-
+@
+text
+@d52 1
+a52 1
+   printf ("put in hash!\n");
+@
+
+
+1.7
+log
+@-
+@
+text
+@d53 1
+a53 1
+   printf ("%s\n", array[index]);
+@
+
+
+1.6
+log
+@-
+@
+text
+@d52 2
+a53 1
+   printf ("put in hash!");
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.2 2012-11-27 18:50:54-08 - - $
+d47 1
+a47 1
+      if (strcmp (hashset->array[index], item) == 0) return;
+@
+
+
+1.4
+log
+@-
+@
+text
+@d52 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d45 4
+a48 4
+   hashcode_t index = strhash (item) % hash->length;
+   while (hash->array[index] != NULL) {
+      if (strcmp (hash->array[index], item) == 0) return;
+      index = (index + 1) % hash->length;
+d50 2
+a51 2
+   hash->array[index] = strdup (item);
+   ++hash->load;
+d55 3
+a57 3
+   hashcode_t index = strhash (item) % hash->length;
+   while (hash->array[index] != NULL){
+      if (strcmp(hash->array[index], item) == 0)
+d59 1
+a59 1
+      index = (index + 1) % hash->length;
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.1 2012-11-16 18:05:22-08 - - $
+d44 8
+a51 1
+   STUBPRINTF ("hashset=%p, item=%s\n", hashset, item);
+d55 7
+a61 2
+   STUBPRINTF ("hashset=%p, item=%s\n", hashset, item);
+   return true;
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: hashset.c,v 1.1 2012-02-21 20:36:10-08 - - $
+d26 1
+a29 1
+   assert (new->array != NULL);
+@

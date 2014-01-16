@@ -1,0 +1,2748 @@
+head	1.118;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.118
+date	2012.11.27.10.34.11;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2012.11.27.10.33.25;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2012.11.27.08.34.12;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2012.11.27.07.54.46;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2012.11.27.07.54.32;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2012.11.27.07.52.48;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2012.11.27.07.48.35;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2012.11.27.07.46.32;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2012.11.27.07.43.55;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2012.11.27.07.43.16;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2012.11.27.07.37.21;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2012.11.27.07.36.18;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2012.11.27.07.35.45;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2012.11.27.07.25.28;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2012.11.27.07.22.56;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2012.11.27.07.21.54;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2012.11.27.07.18.58;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2012.11.27.07.17.36;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2012.11.27.07.12.35;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2012.11.27.07.10.59;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2012.11.27.07.10.45;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2012.11.27.07.06.11;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2012.11.24.10.51.37;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2012.11.24.10.44.54;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2012.11.24.10.42.32;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2012.11.24.10.42.02;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2012.11.24.10.40.23;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2012.11.24.10.39.53;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2012.11.24.10.38.13;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2012.11.24.10.37.02;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2012.11.24.10.32.34;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2012.11.24.10.31.51;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2012.11.24.10.30.19;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2012.11.24.10.29.30;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2012.11.24.10.28.28;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2012.11.24.10.27.54;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2012.11.24.10.27.21;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2012.11.24.10.24.49;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2012.11.24.10.23.58;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2012.11.24.10.19.42;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2012.11.24.10.16.37;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2012.11.24.10.14.51;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2012.11.24.10.11.36;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2012.11.24.09.58.33;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2012.11.24.09.56.48;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2012.11.24.09.56.16;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2012.11.24.09.55.28;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2012.11.24.09.53.55;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2012.11.24.09.52.31;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2012.11.24.09.49.52;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2012.11.24.09.43.32;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2012.11.24.09.42.52;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2012.11.24.09.41.10;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2012.11.24.09.38.54;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2012.11.24.09.35.17;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2012.11.24.09.33.25;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2012.11.24.09.28.27;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2012.11.24.09.27.08;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2012.11.24.09.26.26;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2012.11.24.09.12.36;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2012.11.24.09.11.54;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2012.11.24.09.03.56;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2012.11.24.09.00.29;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2012.11.24.08.58.44;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2012.11.24.08.56.47;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2012.11.24.08.49.31;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2012.11.24.08.45.59;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2012.11.24.08.43.34;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2012.11.24.08.37.22;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2012.11.24.07.44.20;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2012.11.24.07.02.30;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2012.11.24.06.52.09;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2012.11.24.06.47.57;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2012.11.24.06.06.14;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2012.11.24.04.41.32;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2012.11.24.04.39.05;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2012.11.24.04.38.49;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2012.11.24.04.30.39;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2012.11.24.04.27.40;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2012.11.24.04.12.49;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2012.11.24.03.36.12;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2012.11.24.03.15.02;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2012.11.24.03.11.19;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2012.11.24.03.10.18;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2012.11.24.03.04.46;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2012.11.24.03.04.31;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2012.11.24.02.49.10;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2012.11.24.02.35.13;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2012.11.24.02.34.43;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2012.11.24.02.31.23;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2012.11.24.02.26.52;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2012.11.24.01.24.27;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2012.11.23.23.18.58;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2012.11.23.23.17.23;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2012.11.23.23.03.19;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2012.11.23.23.00.08;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2012.11.23.22.58.02;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2012.11.23.22.45.58;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2012.11.20.21.11.38;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2012.11.20.21.08.56;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2012.11.20.21.08.39;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2012.11.20.20.41.29;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2012.11.20.20.40.48;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2012.11.20.20.27.27;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2012.11.20.20.26.49;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2012.11.15.05.36.52;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2012.11.15.05.35.53;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2012.11.15.03.06.47;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2012.11.15.03.06.35;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.11.15.03.03.46;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.11.15.02.56.58;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.11.15.02.56.44;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.11.15.02.56.18;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.11.15.02.55.52;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.11.15.02.55.34;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.11.15.02.54.31;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2008.02.15.20.57.43;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.15.20.51.49;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.118
+log
+@-
+@
+text
+@// $Id: list.c,v 1.116 2012-11-27 00:34:12-08 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// ID: 1281439
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+
+#include "debugf.h"
+#include "list.h"
+
+static char *list_tag = "struct list";
+static char *listnode_tag = "struct listnode";
+int currentline = 1;
+int totallines = 1;
+typedef struct listnode *listnode_ref;
+
+struct list {
+   //
+   // INVARIANT:  Both head and last are NULL or neither are NULL.
+   // If neither are null, then following listnode next links from
+   // head will get to last, and prev links from last gets to head.
+   //
+   char *tag;
+   listnode_ref head;
+   listnode_ref curr;
+   listnode_ref last;
+};
+
+struct listnode {
+   char *tag;
+   char *line;
+   listnode_ref prev;
+   listnode_ref next;
+};
+
+void debugdump_list (list_ref list, char *stdinline) {
+   if (strlen(stdinline)>1){
+      fflush(NULL);
+      fprintf(stderr, "%s: %s: invalid command\n",Exec_Name, stdinline);
+      fflush(NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else{
+     listnode_ref itor = NULL;
+     assert (is_list (list));
+     fflush (NULL);
+     fprintf (stderr,
+              "\n[%p]->struct list {tag=[%p]->[%s];"
+              " head=[%p]; curr=[%p]; last=[%p]; }\n",
+              list, list->tag, list->tag,
+              list->head, list->curr, list->last);
+     for (itor = list->head; itor != NULL; itor = itor->next) {
+        fprintf (stderr,
+                 "[%p]->struct listnode {tag=[%p]->[%s];"
+                 " line=[%p]=[%s]; prev=[%p]; next=[%p]; }\n",
+                 itor, itor->tag, itor->tag, itor->line, itor->line,
+                 itor->prev, itor->next);
+     }
+     fflush (NULL);
+   }
+}
+
+
+list_ref new_list (void) {
+   //
+   // Creates a new struct list.
+   //
+   list_ref list = malloc (sizeof (struct list));
+   assert (list != NULL);
+   list->tag = list_tag;
+   list->head = NULL;
+   list->curr = NULL;
+   list->last = NULL;
+   return list;
+}
+
+void free_list (list_ref list) {
+   assert (is_list (list));
+   assert (empty_list (list));
+   memset (list, 0, sizeof (struct list));
+   free (list);
+}
+
+bool setmove_list (list_ref list, list_move move, char *stdinline) {
+   assert (is_list (list));
+   if (strlen(stdinline)>1){
+      fflush(NULL);
+      fprintf(stderr, "%s: %s: invalid command\n",Exec_Name, stdinline);
+      fflush(NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else{
+   switch (move) {
+      case MOVE_HEAD:
+           list->curr = list->head;
+           currentline = 1;
+           viewcurr_list(list, "");
+           break;
+      case MOVE_PREV:
+           if (list->curr->prev != NULL){
+              list->curr = list->curr->prev;
+              --currentline;
+           }
+           viewcurr_list(list, "");
+           break;
+      case MOVE_NEXT:
+           if (list->curr->next != NULL){
+              list->curr = list->curr->next;
+              ++currentline;
+           }
+           viewcurr_list(list, "");
+           break;
+      case MOVE_LAST:
+           list->curr = list->last;
+           currentline = totallines;
+           viewcurr_list(list, "");
+           break;
+      default: assert (false);
+   }
+   }
+   return false;
+}
+
+char *viewcurr_list (list_ref list, char *stdinline) {
+   assert (is_list (list));
+   if (strlen(stdinline)>1){
+      fflush(NULL);
+      fprintf(stderr, "%s: %s: invalid command\n",Exec_Name, stdinline);
+      fflush(NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else{
+     if(list->head != NULL)
+     printf ("%6d:%s\n",currentline, list->curr->line);
+       else{
+          fflush (NULL);
+          fprintf (stderr, "%s: %s\n", Exec_Name, "no lines in file");
+          fflush (NULL);
+          Exit_Status = EXIT_FAILURE;
+       }
+   }
+     return NULL;
+}
+
+void print_all(list_ref list, char *stdinline){
+   assert (is_list(list));
+   if (strlen(stdinline)>1){
+      fflush(NULL);
+      fprintf(stderr, "%s: %s: invalid command\n",Exec_Name, stdinline);
+      fflush(NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else{
+   list->curr = list->head;
+   currentline = 1;
+   while(list->curr != NULL){
+      printf("%6d: %s\n",currentline, list->curr->line);
+      list->curr = list->curr->next;
+      ++currentline;
+   }
+   list->curr = list->last;
+   }
+}
+
+char* itoratetowrite (list_ref list){
+   assert (is_list (list));
+   assert (!empty_list (list));
+   char *oldline = list->curr->line;
+   list->curr = list->curr->next;
+   return oldline;
+}
+
+
+
+void insert_list (list_ref list, char *line) {
+   assert (is_list (list));
+   listnode_ref newnode = malloc (sizeof (struct listnode));
+   newnode->tag = listnode_tag;
+   newnode->line = line;
+   newnode->prev = NULL;
+   newnode->next = NULL;
+   if (empty_list(list)){
+     list->head = newnode;
+     list->last = newnode;
+   }
+   else{
+     list->last->next = newnode;
+     newnode->prev = list->last;
+     list->last = newnode;
+   }
+}
+
+void insert_fileline_list( list_ref list , char *line) {
+   assert (is_list (list));
+   listnode_ref newnode = malloc (sizeof (struct listnode));
+   newnode->tag = listnode_tag;
+   newnode->line = line;
+   if (empty_list(list)){
+      list->head = newnode;
+      list->last = newnode;
+      list->curr = newnode;
+      list->curr->next = NULL;
+      list->curr->prev = NULL;
+   }else{
+   newnode->prev = list->curr;
+   newnode->next = list->curr->next;
+   if (list->curr->next != NULL)
+      list->curr->next->prev = newnode;
+   list->curr->next = newnode;
+   list->curr = newnode;
+   }
+   ++totallines;
+   ++currentline;
+}
+
+void insert_line_after (list_ref list, char *line){
+   assert (is_list (list));
+   listnode_ref newnode = malloc (sizeof (struct listnode));
+   newnode->tag = listnode_tag;
+   newnode->line = strdup(line);
+   if (empty_list(list)){
+      list->head = newnode;
+      list->last = newnode;
+      list->curr = newnode;
+      list->curr->next = NULL;
+      list->curr->prev = NULL;
+   }else{
+   newnode->prev = list->curr;
+   newnode->next = list->curr->next;
+   if (list->curr->next != NULL)
+      list->curr->next->prev = newnode;
+   list->curr->next = newnode;
+   list->curr = newnode;
+   }
+   ++currentline;
+   ++totallines;
+   viewcurr_list (list, "");
+}
+
+void insert_line_before (list_ref list, char *line){
+   assert (is_list (list));
+   listnode_ref newnode = malloc (sizeof (struct listnode));
+   newnode->tag = listnode_tag;
+   newnode->line = strdup(line);
+   if (empty_list(list)){
+      list->head = newnode;
+      list->last = newnode;
+      list->curr = newnode;
+      list->curr->next = NULL;
+      list->curr->prev = NULL;
+      ++currentline;
+   }else{
+   newnode->prev = list->curr->prev;
+   newnode->next = list->curr;
+   if (list->curr->prev != NULL)
+      list->curr->prev->next = newnode;
+   list->curr->prev = newnode;
+   list->curr = newnode;
+   }
+   ++totallines;
+   viewcurr_list (list, "");
+}
+
+void set_curr (list_ref list, int currentlines ){
+   assert (is_list (list));
+   list->curr = list->last;
+   currentline = currentlines;
+   totallines = currentlines;
+}
+
+void set_curr_head (list_ref list){
+   assert (is_list (list));
+   list->curr = list->head;
+   currentline = 0;
+}
+
+bool is_null(list_ref list){
+  assert (is_list(list));
+  if(list->curr == NULL){
+     list->curr = list->last;
+     return true;
+  }
+  else
+     return false;
+}
+
+void delete_list (list_ref list, char *stdinline) {
+   assert (is_list (list));
+    if (strlen(stdinline)>1){
+      fflush(NULL);
+      fprintf(stderr, "%s: %s: invalid command\n",Exec_Name, stdinline);
+      fflush(NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else{
+  
+     if (empty_list(list)){
+        fflush (NULL);
+        fprintf (stderr, "%s: %s\n",Exec_Name, "no lines in file");
+        fflush (NULL);
+        Exit_Status = EXIT_FAILURE;
+     }
+     else{
+     listnode_ref oldnode = list->curr;
+     if(list->curr->next != NULL){
+        list->curr->next->prev = list->curr->prev;
+        if (list->curr->prev == NULL)
+           list->head=list->curr->next;
+        else
+           list->curr->prev->next = list->curr->next;
+        list->curr = list->curr->next;
+     }
+     else{
+        if (list->curr->prev != NULL){
+        list->last = list->curr->prev;
+        list->curr = list->last;
+        list->curr->next = NULL;
+        }
+        else{
+        list->head = NULL;
+        list->last = NULL;
+        }
+        --currentline;
+     }
+     free (oldnode->line);
+     free (oldnode);
+     --totallines;
+     }
+
+   }
+}
+
+bool empty_list (list_ref list) {
+   assert (is_list (list));
+   return list->head == NULL;
+}
+
+bool is_list (list_ref list) {
+   return list != NULL && list->tag == list_tag;
+}
+
+@
+
+
+1.117
+log
+@-
+@
+text
+@d83 1
+a83 1
+   memset (list, 0, sizeof (struct list))
+@
+
+
+1.116
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.115 2012-11-26 23:54:46-08 - - $
+d83 2
+@
+
+
+1.115
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.114 2012-11-26 23:54:32-08 - - $
+a308 1
+        --currentline;
+@
+
+
+1.114
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.113 2012-11-26 23:52:48-08 - - $
+d280 1
+@
+
+
+1.113
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.112 2012-11-26 23:48:35-08 - - $
+d277 2
+a278 1
+  if(list->curr != NULL)
+d280 1
+a280 2
+  else{
+     list->curr = list->last;
+a281 1
+  }
+@
+
+
+1.112
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.111 2012-11-26 23:46:32-08 - - $
+d275 1
+a275 1
+bool is_last(list_ref list){
+d277 6
+a282 1
+  return list->curr == list->last; 
+@
+
+
+1.111
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.110 2012-11-26 23:43:55-08 - - $
+d275 1
+a275 1
+void is_last(list_ref list){
+@
+
+
+1.110
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.109 2012-11-26 23:43:16-08 - - $
+d275 5
+@
+
+
+1.109
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.108 2012-11-26 23:37:21-08 - - $
+d271 1
+a271 1
+   list->curr = list->last;
+@
+
+
+1.108
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.107 2012-11-26 23:36:18-08 - - $
+d269 6
+@
+
+
+1.107
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.106 2012-11-26 23:35:45-08 - - $
+d87 1
+a87 1
+   if (strlen(stdinline)>1 && stdinline != NULL){
+@
+
+
+1.106
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.105 2012-11-26 23:25:28-08 - - $
+d87 1
+a87 1
+   if (strlen(stdinline)>1 && != NULL){
+@
+
+
+1.105
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.104 2012-11-26 23:22:56-08 - - $
+d87 1
+a87 1
+   if (strlen(stdinline)>1){
+a165 1
+   list->curr = list->head;
+d167 1
+a167 1
+   list->head = list->curr->next;
+@
+
+
+1.104
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.103 2012-11-26 23:21:54-08 - - $
+d212 1
+@
+
+
+1.103
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.102 2012-11-26 23:18:58-08 - - $
+d249 1
+@
+
+
+1.102
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.101 2012-11-26 23:17:36-08 - - $
+a202 1
+      currentline = 1;
+d292 1
+@
+
+
+1.101
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.100 2012-11-26 23:12:35-08 - - $
+d203 1
+@
+
+
+1.100
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.99 2012-11-26 23:10:59-08 - - $
+d197 7
+d210 1
+@
+
+
+1.99
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.98 2012-11-26 23:10:45-08 - - $
+d235 7
+d248 1
+@
+
+
+1.98
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.97 2012-11-26 23:06:11-08 - - $
+d213 1
+a213 1
+      list->tail = newnode;
+@
+
+
+1.97
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.96 2012-11-24 02:51:37-08 - - $
+d211 7
+a219 2
+   if (empty_list(list))
+      list->head = newnode;
+d224 1
+@
+
+
+1.96
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.95 2012-11-24 02:44:54-08 - - $
+d213 2
+@
+
+
+1.95
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.94 2012-11-24 02:42:32-08 - - $
+d40 23
+a62 15
+void debugdump_list (list_ref list) {
+   listnode_ref itor = NULL;
+   assert (is_list (list));
+   fflush (NULL);
+   fprintf (stderr,
+            "\n[%p]->struct list {tag=[%p]->[%s];"
+            " head=[%p]; curr=[%p]; last=[%p]; }\n",
+            list, list->tag, list->tag,
+            list->head, list->curr, list->last);
+   for (itor = list->head; itor != NULL; itor = itor->next) {
+      fprintf (stderr,
+               "[%p]->struct listnode {tag=[%p]->[%s];"
+               " line=[%p]=[%s]; prev=[%p]; next=[%p]; }\n",
+               itor, itor->tag, itor->tag, itor->line, itor->line,
+               itor->prev, itor->next);
+a63 1
+   fflush (NULL);
+@
+
+
+1.94
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.93 2012-11-24 02:42:02-08 - - $
+d148 1
+a148 1
+      printf("%d: %s\n",currentline, list->curr->line);
+@
+
+
+1.93
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.92 2012-11-24 02:40:23-08 - - $
+d126 1
+a126 1
+     printf ("%24.15d:%s\n",currentline, list->curr->line);
+@
+
+
+1.92
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.91 2012-11-24 02:39:53-08 - - $
+d126 1
+a126 1
+     printf ("%d:%s\n",currentline, list->curr->line);
+@
+
+
+1.91
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.90 2012-11-24 02:38:13-08 - - $
+d150 1
+@
+
+
+1.90
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.89 2012-11-24 02:37:02-08 - - $
+d146 1
+d148 1
+a148 1
+      printf("%s\n", list->curr->line);
+@
+
+
+1.89
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.88 2012-11-24 02:32:34-08 - - $
+d121 1
+a121 1
+      fprintf(stderr, "%s: %s: invalid command",Exec_Name, stdinline);
+d239 1
+a239 1
+      fprintf(stderr, "%s: %s: invalid command",Exec_Name, stdinline);
+@
+
+
+1.88
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.87 2012-11-24 02:31:51-08 - - $
+d235 1
+a235 1
+void delete_list (list_ref list) {
+d237 4
+a240 4
+   if (empty_list(list)){
+      fflush (NULL);
+      fprintf (stderr, "%s: %s\n",Exec_Name, "no lines in file");
+      fflush (NULL);
+d242 35
+a276 26
+   }
+   else{
+   listnode_ref oldnode = list->curr;
+   if(list->curr->next != NULL){
+      list->curr->next->prev = list->curr->prev;
+      if (list->curr->prev == NULL)
+         list->head=list->curr->next;
+      else
+         list->curr->prev->next = list->curr->next;
+      list->curr = list->curr->next;
+   }
+   else{
+      if (list->curr->prev != NULL){
+      list->last = list->curr->prev;
+      list->curr = list->last;
+      list->curr->next = NULL;
+      }
+      else{
+      list->head = NULL;
+      list->last = NULL;
+      }
+      --currentline;
+   }
+   free (oldnode->line);
+   free (oldnode);
+   --totallines;
+@
+
+
+1.87
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.86 2012-11-24 02:30:19-08 - - $
+d82 1
+a82 1
+      fprintf(stderr, "%s: %s: invalid command",Exec_Name, stdinline);
+d141 1
+a141 1
+      fprintf(stderr, "%s: %s: invalid command",Exec_Name, stdinline);
+@
+
+
+1.86
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.85 2012-11-24 02:29:30-08 - - $
+d210 1
+a210 1
+   viewcurr_list (list, NULL);
+d225 1
+a225 1
+   viewcurr_list (list, NULL);
+@
+
+
+1.85
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.84 2012-11-24 02:28:28-08 - - $
+d90 1
+a90 1
+           viewcurr_list(list, "0");
+d97 1
+a97 1
+           viewcurr_list(list, NULL);
+d104 1
+a104 1
+           viewcurr_list(list, NULL);
+d109 1
+a109 1
+           viewcurr_list(list, NULL);
+@
+
+
+1.84
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.83 2012-11-24 02:27:54-08 - - $
+d90 1
+a90 1
+           viewcurr_list(list, NULL);
+@
+
+
+1.83
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.82 2012-11-24 02:27:21-08 - - $
+d133 1
+a134 1
+   }
+@
+
+
+1.82
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.81 2012-11-24 02:24:49-08 - - $
+d210 1
+a210 1
+   viewcurr_list (list);
+d225 1
+a225 1
+   viewcurr_list (list);
+@
+
+
+1.81
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.80 2012-11-24 02:23:58-08 - - $
+d90 1
+a90 1
+           viewcurr_list(list);
+d97 1
+a97 1
+           viewcurr_list(list);
+d104 1
+a104 1
+           viewcurr_list(list);
+d109 1
+a109 1
+           viewcurr_list(list);
+@
+
+
+1.80
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.79 2012-11-24 02:19:42-08 - - $
+d117 1
+a117 1
+char *viewcurr_list (list_ref list) {
+@
+
+
+1.79
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.78 2012-11-24 02:16:37-08 - - $
+d119 15
+a133 7
+   if(list->head != NULL)
+   printf ("%d:%s\n",currentline, list->curr->line);
+     else{
+        fflush (NULL);
+        fprintf (stderr, "%s: %s\n", Exec_Name, "no lines in file");
+        fflush (NULL);
+        Exit_Status = EXIT_FAILURE;
+a134 1
+   return NULL;
+@
+
+
+1.78
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.77 2012-11-24 02:14:51-08 - - $
+d85 1
+a85 1
+   }
+d113 1
+d130 1
+a130 1
+void print_all(list_ref list){
+d132 6
+d144 1
+@
+
+
+1.77
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.75 2012-11-24 01:58:33-08 - - $
+d122 1
+a122 1
+        fprintf (stderr, "%s\n", "no lines in file");
+d224 1
+a224 1
+      fprintf (stderr, "%s\n", "no lines in file");
+@
+
+
+1.76
+log
+@-
+@
+text
+@d82 1
+a82 1
+      fprintf(stderr, "%s: invalid command", stdinline);
+d84 1
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.74 2012-11-24 01:56:48-08 - - $
+d78 1
+a78 1
+bool setmove_list (list_ref list, list_move move) {
+d80 5
+@
+
+
+1.74
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.71 2012-11-24 01:53:55-08 - - $
+d216 6
+a221 2
+   if (empty_list(list))
+      printf("%s\n", "no lines in file");
+@
+
+
+1.73
+log
+@-
+@
+text
+@d116 1
+a116 1
+        fprintf (stderr, "%s", "no lines in file");
+@
+
+
+1.72
+log
+@-
+@
+text
+@d112 1
+a112 1
+   if(list->curr != NULL)
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.69 2012-11-24 01:49:52-08 - - $
+d114 5
+a118 5
+   else{
+      fflush (NULL);
+      fprintf (stderr, "%s", "no lines in file");
+      fflush (NULL);
+      Exit_Status = EXIT_FAILURE;
+@
+
+
+1.70
+log
+@-
+@
+text
+@d119 1
+d254 1
+a254 1
+return Exit_Status;
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.68 2012-11-24 01:43:32-08 - - $
+d253 1
+a253 1
+
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.67 2012-11-24 01:42:52-08 - - $
+d10 1
+d112 1
+d114 5
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.66 2012-11-24 01:41:10-08 - - $
+d208 1
+a208 1
+   if (empty_list(list));
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.65 2012-11-24 01:38:54-08 - - $
+d208 1
+a208 2
+   assert (! empty_list (list));
+   if (list->head == NULL)
+@
+
+
+1.65
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.64 2012-11-24 01:35:17-08 - - $
+d222 1
+a222 1
+      if (list->curr->prev != NULL)
+d224 3
+a230 2
+      list->curr = list->last;
+      list->curr->next = NULL;
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.63 2012-11-24 01:33:25-08 - - $
+d224 4
+a227 1
+      else list->last = list->head = NULL;
+@
+
+
+1.63
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.62 2012-11-24 01:28:27-08 - - $
+a208 1
+   listnode_ref oldnode = list->curr;
+d212 1
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.61 2012-11-24 01:27:08-08 - - $
+d224 1
+a224 1
+      else list->last = list->head;
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.60 2012-11-24 01:26:26-08 - - $
+a228 1
+   }
+d232 1
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.59 2012-11-24 01:12:36-08 - - $
+d222 1
+a222 1
+      if (list->prev != NULL)
+d224 1
+a224 1
+      else list->last = head;
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.58 2012-11-24 01:11:54-08 - - $
+d215 4
+a218 1
+      list->curr->prev->next = list->curr->next;
+d222 1
+d224 1
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.57 2012-11-24 01:03:56-08 - - $
+d210 1
+a210 1
+   if (list->head == NULL){
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.56 2012-11-24 01:00:29-08 - - $
+d210 3
+d224 1
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.55 2012-11-24 00:58:44-08 - - $
+d95 1
+a95 1
+           ++currentline;
+d218 1
+@
+
+
+1.55
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.54 2012-11-24 00:56:47-08 - - $
+d218 1
+@
+
+
+1.54
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.53 2012-11-24 00:49:31-08 - - $
+d215 4
+a218 2
+   else
+      list->curr->prev = list->last;
+@
+
+
+1.53
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: list.c,v 1.52 2012-11-24 00:45:59-08 - - $
+d216 1
+a216 1
+      list->curr = list->last;
+@
+
+
+1.52
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.51 2012-11-24 00:43:34-08 - - $
+d80 1
+a81 1
+           currentline = 1;
+d99 1
+a100 1
+           currentline = totallines;
+@
+
+
+1.51
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.50 2012-11-24 00:37:22-08 - - $
+d109 1
+a109 1
+   printf ("%s\n", list->curr->line);
+@
+
+
+1.50
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.48 2012-11-23 23:02:30-08 - - $
+d81 1
+d84 1
+a84 1
+           if (list->curr->prev != NULL)
+d86 2
+d91 1
+a91 1
+           if (list->curr->next != NULL)
+d93 2
+d100 1
+d163 1
+d177 2
+d193 1
+d217 1
+@
+
+
+1.49
+log
+@-
+@
+text
+@d14 2
+a15 1
+
+d187 1
+a187 1
+void set_curr (list_ref list){
+d190 2
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.47 2012-11-23 22:52:09-08 - - $
+a71 1
+   STUBPRINTF ("list=[%p]\n", list);
+a124 4
+//void write_function (list_ref, FILE *output, char *filename){
+//   while (list->curr->line != NULL){
+//      fprintf (outp
+//}
+@
+
+
+1.47
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.46 2012-11-23 22:47:57-08 - - $
+d117 1
+a117 1
+char *oldline itoratetowrite (list_ref list){
+@
+
+
+1.46
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.45 2012-11-23 22:06:14-08 - - $
+d117 1
+a117 1
+char *line itoratetowrite (list_ref list){
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.44 2012-11-23 20:41:32-08 - - $
+d117 12
+a128 3
+//void insert_file (list_ref list, char *line){
+//   assert(is_list(list));
+   
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.43 2012-11-23 20:39:05-08 - - $
+d83 2
+a84 1
+           list->curr = list->curr->prev;
+d88 2
+a89 1
+           list->curr = list->curr->next;
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.42 2012-11-23 20:38:49-08 - - $
+d146 2
+a147 1
+   list->curr->next->prev = newnode;
+d173 2
+a174 1
+   list->curr->prev->next = newnode;
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.41 2012-11-23 20:30:39-08 - - $
+d158 1
+a158 1
+   if (curr->next != NULL)
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.40 2012-11-23 20:27:40-08 - - $
+d158 2
+a159 1
+   list->curr->next->prev = newnode;
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.39 2012-11-23 20:12:49-08 - - $
+d139 1
+a139 1
+/*void insert_fileline_list( list_ref list , char *line) {
+d150 1
+a150 1
+*/
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.38 2012-11-23 19:36:12-08 - - $
+d139 12
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.37 2012-11-23 19:15:02-08 - - $
+d115 5
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.36 2012-11-23 19:11:19-08 - - $
+d134 1
+a134 1
+void insert_line (list_ref list, char *line){
+d145 13
+a157 1
+   
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.35 2012-11-23 19:10:18-08 - - $
+d144 1
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.32 2012-11-23 18:49:10-08 - - $
+d158 1
+@
+
+
+1.34
+log
+@-
+@
+text
+@d156 2
+a157 1
+   if(list->curr->next != NULL)
+d159 1
+@
+
+
+1.33
+log
+@-
+@
+text
+@d160 2
+a161 2
+   free (old->line);
+   free (old);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.31 2012-11-23 18:35:13-08 - - $
+d155 7
+a161 1
+   STUBPRINTF ("list=[%p]\n", list);
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.30 2012-11-23 18:34:43-08 - - $
+d136 9
+a144 6
+   listnode_ref newnode1 = malloc (sizeof (struct listnode));
+   newnode1->tag = listnode_tag;
+   newnode1->line = strdup(line);
+   newnode1->prev = list->curr;
+   newnode1->next = list->curr->next;
+   list->curr = newnode1;
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.29 2012-11-23 18:31:23-08 - - $
+d7 1
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.28 2012-11-23 18:26:52-08 - - $
+d137 1
+a137 1
+   newnode1->line = line;
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.26 2012-11-23 15:18:58-08 - - $
+d135 6
+a140 6
+   listnode_ref newnode = malloc (sizeof (struct listnode));
+   newnode->tag = listnode_tag;
+   newnode->line = line;
+   newnode->prev = list->curr;
+   newnode->next = list->curr->next;
+   list->curr = newnode;
+@
+
+
+1.27
+log
+@-
+@
+text
+@d131 1
+d133 8
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.25 2012-11-23 15:17:23-08 - - $
+d136 1
+a136 1
+   list->curr = list->head;
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.23 2012-11-23 15:00:08-08 - - $
+d109 1
+@
+
+
+1.24
+log
+@-
+@
+text
+@d104 9
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.22 2012-11-23 14:58:02-08 - - $
+d79 1
+d83 1
+d87 1
+d91 1
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.21 2012-11-23 14:45:58-08 - - $
+a95 1
+   list->curr = list->last;
+d120 5
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.20 2012-11-20 13:11:38-08 - - $
+d96 1
+a96 1
+   list->curr = list->head;
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.19 2012-11-20 13:08:56-08 - - $
+d96 1
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.18 2012-11-20 13:08:39-08 - - $
+d114 1
+a114 1
+     newnode->prev = last;
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.17 2012-11-20 12:41:29-08 - - $
+d113 1
+a113 1
+     list->last->link = newnode;
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.16 2012-11-20 12:40:48-08 - - $
+d103 15
+a117 1
+   STUBPRINTF ("list=[%p], line=[%p]=%s\n", list, line, line);
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.15 2012-11-20 12:27:27-08 - - $
+d96 1
+a96 1
+   printf ("%s\n", list->node->line);
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.14 2012-11-20 12:26:49-08 - - $
+d96 1
+a96 1
+   STUBPRINTF ("list=[%p]\n", list);
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.13 2012-11-14 21:36:52-08 - - $
+d81 1
+a81 1
+           list->curr = curr->prev;
+d84 1
+a84 1
+           list->curr = curr->next;
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.12 2012-11-14 21:35:53-08 - - $
+d78 1
+a78 1
+           STUBPRINTF ("MOVE_HEAD: list=[%p]\n", list);
+d81 1
+a81 1
+           STUBPRINTF ("MOVE_PREV: list=[%p]\n", list);
+d84 1
+a84 1
+           STUBPRINTF ("MOVE_NEXT: list=[%p]\n", list);
+d87 1
+a87 1
+           STUBPRINTF ("MOVE_LAST: list=[%p]\n", list);
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.11 2012-11-14 19:06:47-08 - - $
+d100 1
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.10 2012-11-14 19:06:35-08 - - $
+d54 1
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.9 2012-11-14 19:03:46-08 - - $
+d26 1
+a26 1
+}
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.8 2012-11-14 18:56:58-08 - - $
+d33 1
+a33 1
+}
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.7 2012-11-14 18:56:44-08 - - $
+d26 1
+a26 1
+};
+d33 1
+a33 1
+};
+d50 1
+a50 1
+   };
+d89 1
+a89 1
+   };
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.6 2012-11-14 18:56:18-08 - - $
+d90 1
+a90 1
+   return FALSE;
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.5 2012-11-14 18:55:52-08 - - $
+d4 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.4 2012-11-14 18:55:34-08 - - $
+d87 1
+a87 1
+      default: assert (FALSE);
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.3 2012-11-14 18:54:31-08 - - $
+d7 1
+a7 1
+#include "debug.h"
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.2 2008-02-15 12:57:43-08 - - $
+d7 1
+d37 3
+a39 1
+   eprintf ("\n[%p]->struct list {tag=[%p]->[%s];"
+d44 2
+a45 1
+      eprintf ("[%p]->struct listnode {tag=[%p]->[%s];"
+d50 1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: list.c,v 1.1 2008-02-15 12:51:49-08 - - $
+d9 2
+a10 2
+static cstring list_tag = "struct list";
+static cstring listnode_tag = "struct listnode";
+d20 1
+a20 1
+   cstring tag;
+d27 2
+a28 2
+   cstring tag;
+   list_item item;
+d42 2
+a43 2
+               " item=[%p]=[%s]; prev=[%p]; next=[%p]; }\n",
+               itor, itor->tag, itor->tag, itor->item, itor->item,
+d87 1
+a87 1
+list_item viewcurr_list (list_ref list) {
+d93 1
+a93 1
+void insert_list (list_ref list, list_item item) {
+d95 1
+a95 1
+   STUBPRINTF ("list=[%p], item=[%p]=%s\n", list, item, item);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: list.c,v 1.1 2007-02-15 16:05:37-08 - - $ */
+d15 5
+a19 5
+   /*
+   * INVARIANT:  Both head and last are NULL or neither are NULL.
+   * If neither are null, then following listnode next links from
+   * head will get to last, and prev links from last gets to head.
+   */
+d49 3
+a51 3
+   /*
+   * Creates a new struct list.
+   */
+@

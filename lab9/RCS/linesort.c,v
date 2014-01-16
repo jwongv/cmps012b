@@ -1,0 +1,214 @@
+head	1.10;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.10
+date	2012.12.06.11.09.58;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.12.06.06.32.59;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.12.06.06.32.34;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.12.06.06.01.48;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.12.06.05.52.45;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.12.06.05.51.57;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.12.06.04.43.12;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.12.06.04.37.47;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.12.06.04.36.58;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.12.06.04.36.18;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@-
+@
+text
+@#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <libgen.h>
+#include <unistd.h>
+
+#include "inssort.h"
+
+typedef char *cstring;
+
+static int compar (const void *copy, const void *original){
+    return strcmp(*(char* const*) copy, *(char* const*) original);
+}
+
+int main (){
+    char* array[1000];
+    char buffer[1000];
+    int max = 0;
+    for (int i = 0;i < 999; ++i){
+       cstring line;
+       line = fgets (buffer, sizeof buffer, stdin);
+       if (line == NULL) break;
+       cstring nlpos = strchr (buffer, '\n');
+       if (nlpos != NULL){
+          *nlpos = '\0';
+       }
+
+       array [i] = strdup(buffer);
+       ++max;
+    }
+
+    inssort (&array[0], max, sizeof(char *) ,compar);
+
+    for (int i = 0; i < max; i++){
+       printf ("%s\n", array[i]);
+       free (array[i]);
+    }
+}
+@
+
+
+1.9
+log
+@-
+@
+text
+@d19 1
+a19 1
+    for (int i = 0;i < 1000; ++i){
+@
+
+
+1.8
+log
+@-
+@
+text
+@a22 4
+       if (line == EOF){
+          printf("EOF\n");
+          break;
+       }
+@
+
+
+1.7
+log
+@-
+@
+text
+@d23 4
+@
+
+
+1.6
+log
+@-
+@
+text
+@d36 1
+@
+
+
+1.5
+log
+@-
+@
+text
+@d15 1
+a15 2
+int main (int argc, char **argv){
+    argc = argc;
+@
+
+
+1.4
+log
+@-
+@
+text
+@d16 1
+a16 1
+    char *progname = basename (argv[0]);
+a26 2
+       } else{
+           printf("unterminated line");
+d29 2
+a30 2
+          array [i] = strdup(buffer);
+          ++max;
+@
+
+
+1.3
+log
+@-
+@
+text
+@d12 1
+a12 3
+    if (*(double* const*)copy < *(double* const*)original) {return -1;}
+    if (*(double* const*)copy > *(double* const*)original) {return 1;}
+    return 0;
+d35 1
+a35 1
+ //   inssort (&array[0], max, sizeof(double) ,compar);
+@
+
+
+1.2
+log
+@-
+@
+text
+@a5 1
+#include <string.h>
+d9 2
+@
+
+
+1.1
+log
+@-
+@
+text
+@d6 1
+@

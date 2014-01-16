@@ -1,0 +1,335 @@
+head	1.10;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.10
+date	2012.11.12.08.10.28;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.11.01.00.06.20;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.10.31.21.25.07;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.10.31.21.23.44;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.10.31.21.23.26;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.10.31.21.23.02;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.10.31.21.21.06;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.10.31.20.14.45;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.10.31.01.40.17;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.31.01.39.49;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@-
+@
+text
+@// $Id: jxref.java,v 1.9 2012-10-31 17:06:20-07 - - $
+
+import java.io.*;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import static java.lang.System.*;
+
+class jxref {
+   static final String WORD_REGEX =  "\\w+([-'.:/]\\w+)*"; 
+   static final Pattern WORD_PATTERN = Pattern.compile (WORD_REGEX);
+
+   // Pseudo-typedef in Java, q.v., typedef in C.
+   static class string_cqueue_map
+                extends treemap <String, counted_queue <Integer>> {
+   }
+
+   static class print_visitor
+                implements visitor <String, counted_queue <Integer>> {
+      boolean want_queue_printed;
+      print_visitor (boolean count_only) {
+         want_queue_printed = ! count_only;
+      }
+      public void visit (String key, counted_queue<Integer> queue) {
+         out.printf ("%s [%d]", key, queue.count());
+         if (want_queue_printed) {
+            for (int line_nr: queue) out.printf (" %d", line_nr);
+         }
+         out.printf ("%n");
+      }
+   }
+
+
+   static void scanfile (String filename, Scanner file, options opts) {
+      out.printf ("filename = %s%n", filename);
+      string_cqueue_map tree = new string_cqueue_map();
+      for (int linenr = 1; file.hasNextLine(); ++linenr) {
+         String line = file.nextLine();
+//         out.printf ("%s: %d: %s%n", filename, linenr, line);
+         Matcher matcher = WORD_PATTERN.matcher (line);
+         while (matcher.find()) {
+            String word = matcher.group();
+            if (opts.fold_cases)
+                word = word.toLowerCase();
+            counted_queue <Integer> queue = tree.get(word);
+            if (queue != null)
+               queue.insert(linenr);
+            if (queue == null){
+               queue = new counted_queue <Integer>();
+               queue.insert(linenr);
+               tree.put(word,queue);
+            }
+//            out.printf ("word = %s%n", word);
+         }
+      }
+      if (opts.dump_tree)
+         tree.debug_dump();
+      else
+         tree.visit_all (new print_visitor (opts.count_only));
+   }
+
+   public static void main (String[] args) {
+      options opts = new options (args);
+      for (String filename : opts.filenames) {
+         if (filename.equals ("-")) {
+            scanfile ("-", new Scanner (in), opts);
+         }else {
+            try {
+               Scanner scan = new Scanner (new File (filename));
+               scanfile (filename, scan, opts);
+               scan.close();
+            }catch (IOException error) {
+               messages.warn (error.getMessage());
+            }
+         }
+      }
+      exit (messages.exit_status);
+   }
+
+}
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.8 2012-10-31 14:25:07-07 - - $
+d40 1
+a40 1
+         out.printf ("%s: %d: %s%n", filename, linenr, line);
+d44 11
+a54 2
+            counted_queue <Integer> queue = tree.get (word);
+            out.printf ("word = %s%n", word);
+d57 4
+a60 1
+      tree.visit_all (new print_visitor (opts.count_only));
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.7 2012-10-31 14:23:44-07 - - $
+d53 10
+a62 14
+      if (opts.filenames.length == 0) {
+         scanfile ("-", new Scanner (in), opts);
+      }else {
+         for (String filename : opts.filenames) {
+            if (filename.equals ("-")) {
+               scanfile ("-", new Scanner (in), opts);
+            }else {
+               try {
+                  Scanner scan = new Scanner (new File (filename));
+                  scanfile (filename, scan, opts);
+                  scan.close();
+               }catch (IOException error) {
+                  messages.warn (error.getMessage());
+               }
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.6 2012-10-31 14:23:26-07 - - $
+d25 2
+a26 2
+      public void visit (String key, counted_queue<Integer> value) {
+         out.printf ("%s [%d]", key, value.count());
+d28 1
+a28 3
+            for (int line_nr: counted_queue) {
+               out.printf (" %d", itor.next());
+            }
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.5 2012-10-31 14:23:02-07 - - $
+d22 1
+a22 1
+      print_visitor (int count_only) {
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.4 2012-10-31 14:21:06-07 - - $
+a12 1
+   static final print_visitor PRINTER = new print_visitor();
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.3 2012-10-31 13:14:45-07 - - $
+d22 1
+a22 1
+      boolean print_queue;
+d24 1
+a24 1
+         print_queue = ! count_only;
+d28 4
+a31 4
+         if (print_queue) {
+         Iterator <Integer> itor = value.iterator();
+         while (itor.hasNext()) {
+            out.printf (" %d", itor.next());
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.2 2012-10-30 18:40:17-07 - - $
+d13 1
+a13 1
+   static final printer PRINTER = new printer();
+d16 1
+a16 1
+   static class strcque_treemap
+d20 1
+a20 1
+   static class printer
+d22 4
+a25 1
+      boolean countonly = false;
+d28 1
+d37 1
+d40 1
+a40 1
+      strcque_treemap tree = new strcque_treemap();
+d51 1
+a51 1
+      tree.visit_all (PRINTER);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.1 2012-10-30 18:39:49-07 - - $
+d13 1
+a13 1
+   static final tree_printer TREE_PRINTER = new tree_printer();
+d20 1
+a20 1
+   static class tree_printer
+d42 1
+a42 1
+            //counted_queue <Integer> queue = tree.get (word);
+d46 1
+a46 1
+      tree.visit_all (TREE_PRINTER);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jxref.java,v 1.6 2012-10-30 18:11:00-07 - - $
+d13 1
+a13 1
+   static final jxvisitor TREE_PRINTER = new tree_printer();
+@

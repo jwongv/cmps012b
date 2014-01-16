@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2012.10.16.17.52.38;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.16.17.37.06;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@#!/bin/sh -x
+# $Id: mkexit1,v 1.1 2012-10-16 10:37:06-07 - - $
+
+javac exit1.java
+echo Main-class: exit1 >Manifest
+jar cvfm exit1 Manifest exit1.class
+yes | rm -i Manifest exit1.class
+chmod +x exit1
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 7
+a8 1
+# $Id$
+@

@@ -1,0 +1,2262 @@
+head	1.101;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.101
+date	2012.11.27.10.40.02;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2012.11.27.10.33.44;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2012.11.27.10.33.25;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2012.11.27.07.53.15;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2012.11.27.07.48.35;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2012.11.27.07.48.01;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2012.11.27.07.46.32;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2012.11.27.07.43.16;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2012.11.27.07.42.39;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2012.11.27.07.37.21;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2012.11.27.07.35.45;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2012.11.27.07.06.11;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2012.11.24.10.51.37;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2012.11.24.10.37.02;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2012.11.24.10.24.49;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2012.11.24.10.23.57;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2012.11.24.10.23.40;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2012.11.24.10.11.36;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2012.11.24.08.56.47;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2012.11.24.08.48.07;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2012.11.24.08.45.22;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2012.11.24.08.36.35;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2012.11.24.08.16.46;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2012.11.24.08.16.22;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2012.11.24.07.52.54;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2012.11.24.07.51.32;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2012.11.24.07.42.31;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2012.11.24.07.41.37;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2012.11.24.07.29.06;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2012.11.24.07.26.35;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2012.11.24.07.25.27;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2012.11.24.07.23.58;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2012.11.24.07.22.27;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2012.11.24.07.21.49;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2012.11.24.07.21.02;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2012.11.24.07.14.08;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2012.11.24.07.13.26;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2012.11.24.07.12.53;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2012.11.24.07.04.48;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2012.11.24.06.47.57;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2012.11.24.06.46.36;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2012.11.24.06.45.06;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2012.11.24.06.34.06;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2012.11.24.06.30.46;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2012.11.24.04.30.46;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2012.11.24.04.27.40;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2012.11.24.04.22.52;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2012.11.24.04.19.53;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2012.11.24.04.12.49;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2012.11.24.04.12.33;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2012.11.24.03.36.11;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2012.11.24.03.04.31;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2012.11.24.02.53.45;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2012.11.24.02.31.23;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2012.11.24.02.29.43;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2012.11.24.02.26.52;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2012.11.24.01.44.51;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2012.11.24.01.44.29;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2012.11.24.01.43.17;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2012.11.24.01.39.35;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2012.11.24.01.37.48;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2012.11.24.01.36.53;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2012.11.24.01.33.54;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2012.11.24.01.32.52;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2012.11.24.01.32.04;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2012.11.24.01.30.18;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2012.11.24.01.30.00;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2012.11.24.01.28.02;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2012.11.24.01.27.32;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2012.11.24.01.26.47;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2012.11.24.01.24.27;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2012.11.24.01.24.00;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2012.11.23.23.30.26;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2012.11.23.23.17.22;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2012.11.23.23.13.14;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2012.11.23.23.00.08;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2012.11.23.22.57.09;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2012.11.23.22.56.31;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2012.11.23.22.52.52;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2012.11.23.22.45.58;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2012.11.20.21.34.39;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2012.11.20.21.33.56;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2012.11.20.21.33.23;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2012.11.20.21.31.54;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2012.11.20.21.31.17;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2012.11.20.21.13.30;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2012.11.20.20.40.48;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2012.11.15.05.35.53;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2012.11.15.03.27.00;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2012.11.15.03.26.42;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2012.11.15.03.23.06;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2012.11.15.03.22.49;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.11.15.03.14.33;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.11.15.03.11.25;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.11.15.03.11.05;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.11.15.03.06.35;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.11.15.03.03.46;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.11.15.03.01.53;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.11.15.02.58.21;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2008.02.15.20.57.43;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.15.20.51.49;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.101
+log
+@-
+@
+text
+@// $Id: edfile.c,v 1.100 2012-11-27 02:33:44-08 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// ID: 1281439
+#include <assert.h>
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <errno.h>
+
+#include "debugf.h"
+#include "list.h"
+
+bool want_echo = false;
+int currentlines = 0;
+void badline (int stdincount, char *stdinline) {
+   fflush (NULL);
+   fprintf (stderr, "Bad input line %d: %s\n", stdincount, stdinline);
+   fflush (NULL);
+}
+
+void putinlist (list_ref list, FILE *input, char *filename) {
+   char buffer[1024];
+   for (int linenr = 1; ; ++linenr) {
+      char *linepos1 = fgets (buffer, sizeof buffer, input);
+      if (linepos1 == NULL) break;
+      linepos1 = strchr (buffer, '\n');
+      if (linepos1 == NULL) {
+         fflush (NULL);
+         fprintf (stderr, "%s: %s[%d]: unterminated line\n",
+                  Exec_Name, filename, linenr);
+         fflush (NULL);
+         Exit_Status = EXIT_FAILURE;
+      }else {
+         *linepos1 = '\0';
+      }
+      linepos1 = strdup (buffer);
+      assert (linepos1 != NULL);
+      insert_list (list, linepos1);
+      ++currentlines;
+      set_curr (list, currentlines);
+   }
+   printf("%d lines read from %s\n", currentlines, filename);
+}
+
+void putfileinlist (list_ref list, char *filename) {
+   FILE *input = fopen (filename, "r");
+   if (input == NULL) {
+      fflush (NULL);
+      fprintf (stderr, "%s: %s: %s\n",
+               Exec_Name, filename, strerror (errno));
+      fflush (NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else {
+      putinlist (list, input, filename);
+      fclose (input);
+   }
+}
+
+void putinlist1 (list_ref list, FILE *input, char *filename){
+   char buffer[1024];
+   int newfilelines = 0;
+   for (int linenr = 1; ; ++linenr) {
+      char *linepos1 = fgets (buffer, sizeof buffer, input);
+      if (linepos1 == NULL) break;
+      linepos1 = strchr (buffer, '\n');
+      if (linepos1 == NULL) {
+         fflush (NULL);
+         fprintf (stderr, "%s: %s[%d]: unterminated line\n",
+                  Exec_Name, filename, linenr);
+         fflush (NULL);
+         Exit_Status = EXIT_FAILURE;
+      }else {
+         *linepos1 = '\0';
+      }
+      linepos1 = strdup (buffer);
+      assert (linepos1 != NULL);
+      insert_fileline_list (list, linepos1);
+      ++newfilelines;
+   }
+   printf("%d lines read from %s\n", newfilelines, filename);
+}
+
+void writefile (list_ref list, char *newfile, char *filename ){
+   FILE *output;
+   if (newfile[0] == '\0')
+      output = fopen(filename, "w");
+   else 
+      output = fopen(newfile, "w");
+   set_curr_head(list);
+   while (!is_null(list)){
+   char *oldline = itoratetowrite(list);
+   fprintf(output, "%s\n", oldline);
+   }
+   fclose(output);
+
+}
+
+void insertfile (list_ref list, char *filename){
+   FILE *input = fopen (filename, "r");
+   if (input == NULL) {
+      fflush (NULL);
+      fprintf (stderr, "%s: %s: %s\n",
+               Exec_Name, filename, strerror (errno));
+      fflush (NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else {
+      putinlist1 (list, input, filename);
+      fclose (input);
+   }
+}
+
+
+void editfile (list_ref list, char *filename) {
+   char stdinline[1024];
+   int stdincount = 0;
+   for(;; ++stdincount) {
+      printf ("%s: ", Exec_Name);
+      char *linepos = fgets (stdinline, sizeof stdinline, stdin);
+      if (linepos == NULL) break;
+      if (want_echo) printf ("%s", stdinline);
+      linepos = strchr (stdinline, '\n');
+      if (linepos == NULL || stdinline[0] == '\0') {
+         badline (stdincount, stdinline);
+      }else {
+         *linepos = '\0';
+         switch (stdinline[0]) {
+            case '$': setmove_list(list, MOVE_LAST, stdinline); break;
+            case '*': print_all(list, stdinline); break;
+            case '.': viewcurr_list(list, stdinline); break;
+            case '0': setmove_list(list, MOVE_HEAD, stdinline); break;
+            case '<': setmove_list(list, MOVE_PREV, stdinline); break;
+            case '>': setmove_list(list, MOVE_NEXT, stdinline); break;
+            case '@@': debugdump_list (list, stdinline); break;
+            case 'a': insert_line_after (list, stdinline+1); break;
+            case 'd': delete_list(list, stdinline); break;
+            case 'i': insert_line_before(list, stdinline+1); break;
+            case 'r': insertfile(list, stdinline+1); break;
+            case 'w': writefile (list, stdinline+1, filename); break;
+            default : badline (stdincount, stdinline);
+         }
+      }
+   }
+   printf("%s\n", "^D");
+}
+
+
+
+void usage_exit() {
+   fflush (NULL);
+   fprintf (stderr, "Usage: %s filename\n", Exec_Name);
+   fflush (NULL);
+   exit (EXIT_FAILURE);
+}
+
+int main (int argc, char **argv) {
+   Exec_Name = basename (argv[0]);
+   if (argc != 2) usage_exit();
+   want_echo = ! (isatty (fileno (stdin)) && isatty (fileno (stdout)));
+   list_ref list = new_list();
+   putfileinlist (list, argv[1]);
+   editfile (list, argv[1]);
+   set_curr_head(list);
+   while (!empty_list(list)){
+      delete_list(list, "");
+   }
+   free_list (list); list = NULL;
+   return Exit_Status;
+}
+@
+
+
+1.100
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.99 2012-11-27 02:33:25-08 - - $
+d63 1
+a63 1
+   int newfilelines = 1;
+@
+
+
+1.99
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.98 2012-11-26 23:53:15-08 - - $
+d165 1
+a165 1
+   while (!is_empty(list)){
+@
+
+
+1.98
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.97 2012-11-26 23:48:35-08 - - $
+d164 4
+@
+
+
+1.97
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.96 2012-11-26 23:48:01-08 - - $
+d92 1
+a92 1
+   while (!is_last(list)){
+@
+
+
+1.96
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.95 2012-11-26 23:46:32-08 - - $
+d92 1
+a92 1
+   while (!is_last)){
+@
+
+
+1.95
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.94 2012-11-26 23:43:16-08 - - $
+d92 1
+a92 1
+   while (!is_last(list)){
+@
+
+
+1.94
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.93 2012-11-26 23:42:39-08 - - $
+d92 1
+a92 1
+   while (!empty_list(list)){
+@
+
+
+1.93
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.92 2012-11-26 23:37:21-08 - - $
+a95 1
+   set_curr_last(list);
+@
+
+
+1.92
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.91 2012-11-26 23:35:45-08 - - $
+d91 1
+a91 1
+   setmove_list (list, MOVE_HEAD, "");
+d96 1
+a96 1
+   setmove_list (list, MOVE_LAST, "");
+@
+
+
+1.91
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.90 2012-11-26 23:06:11-08 - - $
+d91 1
+a91 1
+   setmove_list (list, MOVE_HEAD, NULL);
+d96 1
+a96 1
+   setmove_list (list, MOVE_LAST, NULL);
+@
+
+
+1.90
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.89 2012-11-24 02:51:37-08 - - $
+d91 1
+d96 1
+@
+
+
+1.89
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.88 2012-11-24 02:37:02-08 - - $
+d144 1
+a144 1
+   printf("%s", "^D");
+@
+
+
+1.88
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.87 2012-11-24 02:24:49-08 - - $
+d134 1
+a134 1
+            case '@@': debugdump_list (list); break;
+@
+
+
+1.87
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.86 2012-11-24 02:23:57-08 - - $
+d136 1
+a136 1
+            case 'd': delete_list(list); break;
+@
+
+
+1.86
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.85 2012-11-24 02:23:40-08 - - $
+d130 1
+a130 1
+            case '.': viewcurr_list(list); break;
+@
+
+
+1.85
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.84 2012-11-24 02:11:36-08 - - $
+d130 1
+a130 1
+            case '.': viewcurr_list(list, stdinline); break;
+@
+
+
+1.84
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.83 2012-11-24 00:56:47-08 - - $
+d129 2
+a130 2
+            case '*': print_all(list); break;
+            case '.': viewcurr_list(list); break;
+@
+
+
+1.83
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.82 2012-11-24 00:48:07-08 - - $
+d128 1
+a128 1
+            case '$': setmove_list(list, MOVE_LAST); break;
+d131 3
+a133 3
+            case '0': setmove_list(list, MOVE_HEAD); break;
+            case '<': setmove_list(list, MOVE_PREV); break;
+            case '>': setmove_list(list, MOVE_NEXT); break;
+@
+
+
+1.82
+log
+@-
+@
+text
+@d1 3
+a3 2
+// $Id: edfile.c,v 1.81 2012-11-24 00:45:22-08 - - $
+
+@
+
+
+1.81
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.80 2012-11-24 00:36:35-08 - - $
+d15 1
+a15 1
+int currentlines = 1;
+@
+
+
+1.80
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.79 2012-11-24 00:16:46-08 - - $
+d40 1
+a41 1
+      ++currentlines;
+a79 1
+      ++currentlines;
+@
+
+
+1.79
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.78 2012-11-24 00:16:22-08 - - $
+d40 1
+a40 1
+      set_curr (list);
+@
+
+
+1.78
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.77 2012-11-23 23:52:54-08 - - $
+d82 1
+a82 1
+   printf("%d lines read from %s\n", newfileslines, filename);
+@
+
+
+1.77
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.76 2012-11-23 23:51:32-08 - - $
+d15 1
+a15 1
+
+a23 1
+   int totallines = 1;
+d41 1
+a41 1
+      ++totallines;
+d43 1
+a43 1
+   printf("%d lines read from %s", totallines, filename);
+d62 1
+d79 2
+d82 1
+@
+
+
+1.76
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.75 2012-11-23 23:42:31-08 - - $
+d24 1
+d42 1
+d44 1
+a44 1
+   printf("%d lines read from %s", linenr, filename);
+@
+
+
+1.75
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.74 2012-11-23 23:41:37-08 - - $
+d42 1
+@
+
+
+1.74
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.73 2012-11-23 23:29:06-08 - - $
+d114 1
+a114 1
+      if (linepos == NULL) printf("%s", "^D");  break;
+@
+
+
+1.73
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.72 2012-11-23 23:26:35-08 - - $
+a88 1
+   printf ("%s\n" , "hi");
+a89 1
+   printf ("%s\n" , "hi");
+d114 1
+a114 1
+      if (linepos == NULL) break;
+d138 1
+@
+
+
+1.72
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.71 2012-11-23 23:25:27-08 - - $
+d91 2
+@
+
+
+1.71
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.70 2012-11-23 23:23:58-08 - - $
+d89 1
+@
+
+
+1.70
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.69 2012-11-23 23:22:27-08 - - $
+d82 8
+a89 9
+   printf("%s\n", "hi");
+//      output = fopen(filename, "w");
+//   else 
+//      output = fopen(newfile, "w");
+//   while (!empty_list(list)){
+//   char *oldline = itoratetowrite(list);
+//   fprintf(output, "%s\n", oldline);
+//   }
+//   fclose(output);
+@
+
+
+1.69
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.68 2012-11-23 23:21:49-08 - - $
+d82 2
+a83 1
+      output = fopen(filename, "w");
+@
+
+
+1.68
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.67 2012-11-23 23:21:02-08 - - $
+d81 2
+a82 2
+//   if (newfile == '\0')
+//      output = fopen(filename, "w");
+@
+
+
+1.67
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.66 2012-11-23 23:14:08-08 - - $
+d81 9
+a89 9
+   if (newfile == '\0')
+      output = fopen(filename, "w");
+   else 
+      output = fopen(newfile, "w");
+   while (!empty_list(list)){
+   char *oldline = itoratetowrite(list);
+   fprintf(output, "%s\n", oldline);
+   }
+   fclose(output);
+@
+
+
+1.66
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.65 2012-11-23 23:13:26-08 - - $
+d79 1
+a79 1
+void writefile (list_ref list, char *filename){
+d81 1
+a81 3
+//   if (filename == '\0')
+//      output = fopen(argv[1], "w");
+//   else 
+d83 2
+d107 1
+a107 1
+void editfile (list_ref list) {
+d132 1
+a132 1
+            case 'w': writefile (list, stdinline+1); break;
+d154 1
+a154 1
+   editfile (list);
+@
+
+
+1.65
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.64 2012-11-23 23:12:53-08 - - $
+d81 3
+a83 3
+   if (filename == '\0')
+      output = fopen(argv[1], "w");
+   else 
+@
+
+
+1.64
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.63 2012-11-23 23:04:48-08 - - $
+d81 1
+a81 1
+   if (filename = '\0')
+@
+
+
+1.63
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.62 2012-11-23 22:47:57-08 - - $
+d81 4
+a84 1
+   output = fopen(filename, "w");
+@
+
+
+1.62
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.61 2012-11-23 22:46:36-08 - - $
+d84 1
+a84 1
+   fprintf(output, "%s", oldline);
+@
+
+
+1.61
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.60 2012-11-23 22:45:06-08 - - $
+d86 1
+a86 1
+   fclose(file);
+@
+
+
+1.60
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.59 2012-11-23 22:34:06-08 - - $
+d82 1
+a82 1
+   while (!isempty_list(list)){
+@
+
+
+1.59
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.58 2012-11-23 22:30:46-08 - - $
+d82 3
+a84 2
+   while (list->curr->line != NULL){
+      fprintf (output, *list->curr->line);
+@
+
+
+1.58
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.57 2012-11-23 20:30:46-08 - - $
+d83 1
+a83 1
+      fprintf (output, list->curr->line);
+@
+
+
+1.57
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.56 2012-11-23 20:27:40-08 - - $
+d79 8
+d128 1
+a128 1
+            case 'w': STUBPRINTF ("stdin[%d]: w\n", stdincount); break;
+@
+
+
+1.56
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.55 2012-11-23 20:22:52-08 - - $
+d75 1
+a75 1
+      insert_line_after (list, linepos1);
+@
+
+
+1.55
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.54 2012-11-23 20:19:53-08 - - $
+d75 1
+a75 2
+//      insert_line_after (list, linepos1);
+//      set_curr (list);
+@
+
+
+1.54
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.53 2012-11-23 20:12:49-08 - - $
+d75 2
+a76 2
+      insert_line_after (list, linepos1);
+      set_curr (list);
+@
+
+
+1.53
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.52 2012-11-23 20:12:33-08 - - $
+a57 14
+void insertfile (list_ref list, char *filename){
+   FILE *input = fopen (filename, "r");
+   if (input == NULL) {
+      fflush (NULL);
+      fprintf (stderr, "%s: %s: %s\n",
+               Exec_Name, filename, strerror (errno));
+      fflush (NULL);
+      Exit_Status = EXIT_FAILURE;
+   }else {
+      putinlist1 (list, input, filename);
+      fclose (input);
+   }
+}
+
+d80 16
+@
+
+
+1.52
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.51 2012-11-23 19:36:11-08 - - $
+d65 1
+a65 1
+      Exit_Status = EXIT_FAILUREl
+@
+
+
+1.51
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.50 2012-11-23 19:04:31-08 - - $
+d58 35
+d118 1
+a118 1
+            case 'r': STUBPRINTF ("stdin[%d]: r\n", stdincount); break;
+@
+
+
+1.50
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.49 2012-11-23 18:53:45-08 - - $
+d80 1
+a80 1
+            case 'a': insert_line (list, stdinline+1); break;
+d82 1
+a82 1
+            case 'i': STUBPRINTF ("stdin[%d]: i\n", stdincount); break;
+@
+
+
+1.49
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.48 2012-11-23 18:31:23-08 - - $
+d81 1
+a81 1
+            case 'd': STUBPRINTF ("stdin[%d]: d\n", stdincount); break;
+@
+
+
+1.48
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.47 2012-11-23 18:29:43-08 - - $
+a67 1
+      printf("%s\n", stdinline);
+@
+
+
+1.47
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.46 2012-11-23 18:26:52-08 - - $
+d70 1
+a70 1
+         badline (stdincount, stdinline)
+@
+
+
+1.46
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.45 2012-11-23 17:44:51-08 - - $
+d70 1
+a70 1
+         badline (stdincount, stdinline);
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.44 2012-11-23 17:44:29-08 - - $
+a57 3
+void insert_line(char *stdinline){
+    printf ("%s\n", stdinline);
+}
+a68 2
+      char *rawr = stdinline+1;
+      printf("%s\n", rawr);
+d81 1
+a81 1
+            case 'a': insert_line (stdinline); break;
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.43 2012-11-23 17:43:17-08 - - $
+d73 1
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.42 2012-11-23 17:39:35-08 - - $
+d72 1
+a72 1
+      char *rawr = stdinline[1];
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.41 2012-11-23 17:37:48-08 - - $
+d72 1
+a72 2
+      int rawrr = sizeof stdinline;
+      printf("%d\n", rawrr);
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.40 2012-11-23 17:36:53-08 - - $
+d58 2
+a59 2
+void insert_line(char *linepos){
+    printf ("%s\n", linepos);
+d72 2
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.39 2012-11-23 17:33:54-08 - - $
+d58 3
+a60 3
+//void insert_line(char *linepos){
+//    printf ("%s\n", linepos);
+//}
+d84 1
+a84 1
+            case 'a':  break;
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.38 2012-11-23 17:32:52-08 - - $
+d71 1
+a71 1
+      printf("%s\n", linepos);
+@
+
+
+1.38
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.37 2012-11-23 17:32:04-08 - - $
+d58 3
+a60 3
+void insert_line(char *linepos){
+    printf ("%s\n", linepos);
+}
+d71 1
+d84 1
+a84 1
+            case 'a': insert_line (&linepos); break;
+@
+
+
+1.37
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.36 2012-11-23 17:30:18-08 - - $
+d83 1
+a83 1
+            case 'a': insert_line (linepos); break;
+@
+
+
+1.36
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.35 2012-11-23 17:30:00-08 - - $
+d58 3
+a60 3
+//void insert_line(list_ref list, char *linepos, int stdinline){
+//    printf ("%s\n", linepos);
+//}
+a67 1
+      printf ("%s\n", linepos);
+d83 1
+a83 1
+            case 'a':  break;
+@
+
+
+1.35
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.34 2012-11-23 17:28:02-08 - - $
+d84 1
+a84 1
+            case 'a': insertline(list, linepos, stdinline); break;
+@
+
+
+1.34
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.33 2012-11-23 17:27:32-08 - - $
+d58 3
+a60 3
+void insert_line(list_ref list, char *linepos, int stdinline){
+    printf ("%s\n", linepos);
+}
+d68 1
+@
+
+
+1.33
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.32 2012-11-23 17:26:47-08 - - $
+d59 1
+a59 1
+    printf ("%s\n", linepos[1]);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.31 2012-11-23 17:24:27-08 - - $
+d59 1
+a59 1
+    printf ("%s\n", linepos[0]);
+@
+
+
+1.31
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.30 2012-11-23 17:24:00-08 - - $
+d58 2
+a59 2
+void insert_line(list_ref list, char *stdinline){
+    printf ("%s\n", stdinline[0]);
+d83 1
+a83 1
+            case 'a': insertline(list, stdinline); break;
+@
+
+
+1.30
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.29 2012-11-23 15:30:26-08 - - $
+d58 1
+a58 1
+void insert_line(list_ref list, char *linepos){
+@
+
+
+1.29
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.28 2012-11-23 15:17:22-08 - - $
+d57 5
+d83 1
+a83 1
+            case 'a': insertline(list, linepos); break;
+a93 3
+void insertline(list_ref list, char *linepos){
+    printf("%s\n", stdinline[0];
+}
+@
+
+
+1.28
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.27 2012-11-23 15:13:14-08 - - $
+d78 1
+a78 1
+            case 'a': STUBPRINTF ("stdin[%d]: a\n", stdincount); break;
+d89 3
+@
+
+
+1.27
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.26 2012-11-23 15:00:08-08 - - $
+d72 1
+a72 1
+            case '*': STUBPRINTF ("stdin[%d]: *\n", stdincount); break;
+a88 5
+void print_all(list_ref list){
+   while(list->curr != list->last){
+      viewcurr_list(list);
+   }
+}
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.25 2012-11-23 14:57:09-08 - - $
+d71 1
+a71 1
+            case '$': STUBPRINTF ("stdin[%d]: $\n", stdincount); break;
+d74 3
+a76 3
+            case '0': STUBPRINTF ("stdin[%d]: 0\n", stdincount); break;
+            case '<': STUBPRINTF ("stdin[%d]: <\n", stdincount); break;
+            case '>': setmove_list (list, MOVE_NEXT); break;
+d89 6
+@
+
+
+1.25
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.24 2012-11-23 14:56:31-08 - - $
+d40 1
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.23 2012-11-23 14:52:52-08 - - $
+d75 1
+a75 1
+            case '>': setmove_list (list, MOVE_NEXT);
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.22 2012-11-23 14:45:58-08 - - $
+a39 1
+      list->curr = list->last;
+d75 1
+a75 1
+            case '>': STUBPRINTF ("stdin[%d]: >\n", stdincount); break;
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.21 2012-11-20 13:34:39-08 - - $
+d40 1
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.20 2012-11-20 13:33:56-08 - - $
+a55 1
+list->curr = list->last;
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.19 2012-11-20 13:33:23-08 - - $
+d56 1
+a56 1
+
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.17 2012-11-20 13:31:17-08 - - $
+a59 2
+      insert_list (list, linepos1);
+   }
+@
+
+
+1.18
+log
+@-
+@
+text
+@d9 1
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.16 2012-11-20 13:13:30-08 - - $
+d32 1
+a32 1
+         Exit_status = EXIT_FAILURE;
+d49 1
+a49 1
+      Exit_status = EXIT_FAILURE;
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.15 2012-11-20 12:40:48-08 - - $
+d21 1
+a21 3
+void editfile (list_ref list) {
+   char stdinline[1024];
+   int stdincount = 0;
+d30 1
+a30 1
+                  execname, filename, linenr);
+d32 1
+a32 1
+         exit_status = EXIT_FAILURE;
+d40 21
+a60 1
+   list->curr = list->last;
+d103 1
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.14 2012-11-14 21:35:53-08 - - $
+d24 19
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.13 2012-11-14 19:27:00-08 - - $
+d37 1
+a37 1
+            case '.': STUBPRINTF ("stdin[%d]: .\n", stdincount); break;
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.12 2012-11-14 19:26:42-08 - - $
+d53 1
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.11 2012-11-14 19:23:06-08 - - $
+d63 1
+a63 1
+   want_echo = ! (isatty (fileno (stdin)) && isatty (fileno (stdout));
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.10 2012-11-14 19:22:49-08 - - $
+d63 1
+a63 1
+   if (! isatty (stdin) || ! isatty (stdout)) want_echo = true;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.9 2012-11-14 19:14:33-08 - - $
+d8 1
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.8 2012-11-14 19:11:25-08 - - $
+d55 1
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.7 2012-11-14 19:11:05-08 - - $
+d12 2
+d27 1
+d61 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.6 2012-11-14 19:06:35-08 - - $
+d22 1
+a22 1
+      printf ("%0: ", Exec_Name);
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.5 2012-11-14 19:03:46-08 - - $
+d22 1
+d51 1
+a51 1
+   fprintf (stderr, "Usage: %s filename\n", execname);
+d56 1
+a56 1
+   execname = basename (argv[0]);
+d61 1
+a61 1
+   return exit_status;
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.4 2012-11-14 19:01:53-08 - - $
+d48 6
+d56 1
+a57 1
+   set_progname (argv[0]);
+d60 1
+a60 1
+   return get_exitcode();
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.3 2012-11-14 18:58:21-08 - - $
+d4 1
+d13 3
+a15 1
+   eprintf ("Bad input line %d: %s\n", stdincount, stdinline);
+d43 3
+a45 3
+         };
+      };
+   };
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.2 2008-02-15 12:57:43-08 - - $
+d6 1
+a6 1
+#include <strings.h>
+a10 11
+struct options {
+   bool e_opt_echo;   // was the -e flag given?
+   bool s_opt_silent; // was the -s flag given?
+   char *fileargs;    // points at argv[optind];
+   int fileargc;      // dimension of fileargs
+};
+
+void scanoptions (struct options *options, int argc, char **argv) {
+   STUBPRINTF ("scanoptions: not implemented\n");
+}
+
+d15 1
+a15 1
+void editfile (struct options *options, list_ref list) {
+d46 2
+a47 3
+   struct options options;
+   list_ref list = NULL;
+   bzero (&options, sizeof options);
+d49 1
+a49 3
+   scanoptions (&options, argc, argv);
+   list = new_list();
+   editfile (&options, list);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: edfile.c,v 1.1 2008-02-15 12:51:49-08 - - $
+d8 1
+a8 1
+#include "auxlib.h"
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: edfile.c,v 1.1 2007-02-15 16:05:37-08 - - $ */
+d12 4
+a15 4
+   bool e_opt_echo;   /* was the -e flag given? */
+   bool s_opt_silent; /* was the -s flag given? */
+   char *fileargs;    /* points at argv[optind]; */
+   int fileargc;      /* dimension of fileargs */
+@

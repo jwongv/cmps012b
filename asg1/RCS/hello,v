@@ -1,0 +1,32 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2012.10.15.00.50.56;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@Hello
+hello
+Hi there!
+What's goin on?
+How you doing?
+hello there
+heLLo
+HELlo
+Hahahaa
+@

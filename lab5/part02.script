@@ -1,0 +1,48 @@
+Script started on Fri 09 Nov 2012 12:11:20 AM PST
+[?1034hbash-4.1$ gdb uninit
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux (7.2-50.el6)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /afs/cats.ucsc.edu/users/a/jagwong/private/cmps012b/lab5/uninit...done.
+(gdb) run
+Starting program: /afs/cats.ucsc.edu/users/a/jagwong/private/cmps012b/lab5/uninit 
+32767
+
+Program received signal SIGSEGV, Segmentation fault.
+0x000000000040051e in main (argc=1, argv=0x7fffffffe398) at uninit.c:10
+10	   printf ("%d\n", *pointer);
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.47.el6_2.12.x86_64
+(gdb) where
+#0  0x000000000040051e in main (argc=1, argv=0x7fffffffe398) at uninit.c:10
+(gdb) list
+5	
+6	int main (int argc, char **argv) {
+7	   int foo;
+8	   printf ("%d\n", foo);
+9	   int *pointer;
+10	   printf ("%d\n", *pointer);
+11	}
+(gdb) print foo
+$1 = 32767
+(gdb) print pointer
+$2 = (int *) 0x0
+(gdb) print *pointer
+Cannot access memory at address 0x0
+(gdb) print argv[0]
+$3 = 0x7fffffffe613 "/afs/cats.ucsc.edu/users/a/jagwong/private/cmps012b/lab5/uninit"
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 25664] will be killed.
+
+Quit anyway? (y or n) y
+bash-4.1$ exit
+exit
+
+Script done on Fri 09 Nov 2012 12:11:56 AM PST

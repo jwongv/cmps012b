@@ -1,0 +1,31 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2008.02.15.21.06.04;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@test1 line0
+test1 line1
+test1 line2
+test1 line3 - last line
+line3
+bar
+foo
+$Id: test2.input,v 1.1 2007-02-15 16:07:54-08 - - $
+@

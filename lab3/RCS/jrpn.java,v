@@ -1,0 +1,354 @@
+head	1.8;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.8
+date	2012.10.25.05.56.02;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.10.24.23.58.23;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.10.24.23.04.01;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.10.24.21.36.16;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.10.23.19.00.44;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.10.23.18.03.45;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.10.23.18.03.29;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.23.17.12.39;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@-
+@
+text
+@//# $Id: jrpn.java,v 1.7 2012-10-24 16:58:23-07 - - $
+
+// Jacky Wong - jagwong@@ucsc.edu
+// ID: 1281439
+
+import java.io.*;
+import java.util.Scanner;
+import static java.lang.System.*;
+
+class jrpn{
+
+   public static void main (String[] args){
+
+      final int EMPTY = -1;
+      int top = EMPTY;
+      double[] stack = new double[16];
+      char operator = 'a';
+
+      if (args.length >= 0){
+        Scanner input = new Scanner (in);
+        int i = 0;
+        while (input.hasNext()){
+            boolean isoperator = false;
+            double userinputd = 1;
+            String userinput = input.next();
+            if (userinput.startsWith("#")){
+               input.nextLine();
+               continue;
+            }
+            try{
+               userinputd = Double.parseDouble(userinput);
+            }catch(NumberFormatException error){
+                 isoperator = true;
+                 operator = userinput.charAt(0);
+            }
+
+            if(isoperator){
+                switch (operator){
+                   case '+':
+                        if (top-1 > EMPTY){
+                        stack [top-1] = stack[top-1] + stack[top];
+                        top = top - 1;
+                        }else
+                           err.printf("Error: Stack underflow!%n");
+                        break;
+                   case '-':
+                        if (top-1 > EMPTY){
+                        stack [top-1] = stack[top-1] - stack[top];
+                        top = top - 1;
+                        }else
+                           err.printf("Error: Stack underflow!%n");
+                        break;
+                   case '*':
+                        if (top-1 > EMPTY){
+                        stack [top-1] = stack[top-1] * stack[top];
+                        top = top - 1;
+                        }else
+                           err.printf("Error: Stack underflow!%n");
+                        break;
+                   case '/':
+                        if (top-1 >EMPTY) {
+                        stack [top-1] = stack[top-1] / stack[top];
+                        top = top - 1;
+                        }else
+                           err.printf("Error: Stack underflow!%n");
+                       break;
+                   case ';':
+                        for (i = top; i > -1; i--){
+                           out.printf("%22.15g\n", stack[top-i]);
+                        }
+                        break;
+                   case '~':
+                        top = EMPTY;
+                        break;
+                   default:
+                        err.printf ("%s is not a valid operator!%n", userinput);
+                        continue;
+                }
+            }
+            else{
+                if (top < stack.length-1)
+                   stack[++top] = userinputd;
+                else
+                  err.printf("Error: Stack overflow!%n");
+            }
+        }
+      }
+   }
+}
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 5
+a5 1
+//# $Id: jrpn.java,v 1.6 2012-10-24 16:04:01-07 - - $
+d47 1
+a47 1
+                        try {
+d50 1
+a50 1
+                        }catch (ArrayIndexOutOfBoundsException error){
+a51 1
+                        }
+d54 1
+a54 1
+                        try {
+d57 1
+a57 1
+                        }catch (ArrayIndexOutOfBoundsException error){
+a58 1
+                        }
+d61 1
+a61 1
+                        try {
+d64 1
+a64 1
+                        }catch (ArrayIndexOutOfBoundsException error){
+a65 1
+                        }
+d76 1
+a76 1
+                        err.printf ("%s is not valid!%n", userinput);
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+//# $Id: jrpn.java,v 1.5 2012-10-24 14:36:16-07 - - $
+d22 2
+a23 2
+            if (userinput.startsWith("#"))
+               //  input.nextLine();
+d25 1
+d36 1
+a36 1
+                        try {
+d39 1
+a39 1
+                        }catch (ArrayIndexOutOfBoundsException error){
+a40 1
+                        }
+d80 1
+a80 1
+               try{
+d82 1
+a82 1
+               }catch(ArrayIndexOutOfBoundsException error){
+a83 1
+               }
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+//# $Id: jrpn.java,v 1.4 2012-10-23 12:00:44-07 - - $
+a7 1
+
+d34 7
+a40 1
+                   case '+': 
+d43 6
+d51 6
+d59 14
+d79 7
+a85 4
+
+            stack [i] = userinputd;
+            System.out.println(stack[i]);
+            ++i;
+a86 1
+
+a87 2
+
+
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+//# $Id: jrpn.java,v 1.3 2012-10-23 11:03:45-07 - - $
+d8 1
+a8 27
+/*  static void scaninput (Scanner input,double[] stackarray){
+     int i = 0;
+     while (input.hasNext()){
+         String userinput = input.next();
+         if (userinput.startsWith("#"))
+              input.nextLine();
+         try{
+            double userinputd = Double.parseDouble(userinput);
+            stackarray [i] = userinputd;
+         }catch(NumberFormatException e){
+            err.printf("%s is not a valid input!", userinput);
+         }
+         ++i;
+     }
+
+  }
+*/
+/*   public static boolean isDouble(String inputtoconvert){
+      try{
+           Double.valueOf(inputtoconvert);
+ //          return true;
+      }catch (NumberFormatException error){
+ //          err.printf("%s is not a valid input!", inputtoconvert);
+           return false;
+      }
+   }
+*/
+d14 1
+a14 1
+      char operator;
+d24 2
+a25 1
+                 input.nextLine();
+d30 1
+a30 1
+                 operator = charAt(0);
+d36 11
+d50 1
+a50 1
+            System.out.print(stack[i]);
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+//# $Id: jrpn.java,v 1.2 2012-10-23 11:03:29-07 - - $
+d25 10
+d40 1
+d46 2
+d52 4
+a55 4
+               double userinputd = Double.parseDouble(userinput);
+               stack [i] = userinputd;
+            }catch(NumberFormatException e){
+               err.printf("%s is not a valid input!", userinput);
+d57 7
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id$
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+
+d8 1
+a8 1
+  static void scaninput (Scanner input,double[] stackarray){
+d23 2
+a24 2
+}
+
+d31 16
+a46 2
+      if (args.length >=1){
+         scaninput (new Scanner (in), stack);
+@

@@ -1,0 +1,29 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2012.10.31.20.12.50;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@// $Id: visitor.java,v 1.1 2012-10-30 17:35:27-07 - - $
+
+interface visitor <key_t, value_t> {
+   public void visit (key_t key, value_t value);
+}
+
+@

@@ -1,0 +1,66 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.2
+date	2012.02.15.04.43.22;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.15.04.32.33;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@/* $Id: queue.h,v 1.1 2012-02-14 20:32:33-08 - - $ */
+
+#ifndef __QUEUE_H__
+#define __QUEUE_H__
+
+#include <stdbool.h>
+
+typedef struct queue *queue_ref;
+typedef char *queue_item_t;
+
+queue_ref new_queue (void);
+
+void free_queue (queue_ref);
+
+void insert_queue (queue_ref, queue_item_t);
+
+queue_item_t remove_queue (queue_ref);
+
+bool isempty_queue (queue_ref);
+
+bool is_queue (queue_ref);
+
+#endif
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: queue.h,v 1.1 2011-04-29 19:54:20-07 - - $ */
+d6 1
+a6 1
+#include "bool.h"
+@

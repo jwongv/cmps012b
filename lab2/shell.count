@@ -1,0 +1,5 @@
+      1 /bin/sync
+      1 /sbin/halt
+      1 /sbin/shutdown
+      2 /bin/bash
+     33 /sbin/nologin

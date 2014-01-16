@@ -1,0 +1,164 @@
+head	1.4;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.4
+date	2012.11.09.02.38.10;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.02.16.04.45.26;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.02.16.04.44.42;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.10.02.53.12;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@-
+@
+text
+@// $Id: strlist.c,v 1.3 2012-02-15 20:45:26-08 - - $
+
+// Reads in a sequence of lines and then prints them out in debug
+// format.  strdup(3) copies these lines onto the heap.  Read the
+// comments in the file `numlist.c' first.
+
+#include <assert.h>
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//
+// Declaration for linked list of nodes.
+//
+typedef struct node *node_ref;
+struct node {
+   char *string;
+   node_ref link;
+};
+
+int main (int argc, char **argv) {
+   char *progname = basename (argv[0]);
+   node_ref head = NULL;
+   char buffer[256];
+   int linenr;
+   for (linenr = 1; ; ++linenr) {
+
+      // Read a line of input and check to see if it ends with
+      // a newline character.  Print a message if not.
+
+      char *gotline = fgets (buffer, sizeof buffer, stdin);
+      if (gotline == NULL) break;
+
+      char *nlpos = strchr (buffer, '\n');
+      if (nlpos != NULL) {
+         *nlpos = '\0';
+      }else {
+         fprintf (stderr, "%s: %d: unterminated line: %s\n",
+                  progname, linenr, buffer);
+      };
+
+      // Allocate a node and initialize it to point a a heap copy
+      // of the input line.  Note that strdup(3) contains a call
+      // to malloc(3), so we need the NULL check there as well.
+
+      node_ref new = malloc (sizeof (struct node));
+      assert (new != NULL);
+      new->string = strdup (buffer);
+      assert (new->string != NULL);
+      new->link = head;
+      head = new;
+   };
+
+   // Print the results in debug mode.
+
+   printf ("%s: head= %p\n", argv[0], (void*) head);
+   while (head != NULL) {
+      node_ref old = head;
+      head = head->link;
+      printf ("%s: %p-> node {\n"
+              "    string= %p->\"%s\",\n"
+              "    link= %p}\n",
+              progname, (void*) old, (void*) old->string,
+              old->string, (void*) old->link);
+   };
+
+   return EXIT_SUCCESS;
+}
+
+/*
+//TEST// (echo "this is line 1" \
+//TEST// ;echo "" \
+//TEST// ;echo "the previous line has length 0." \
+//TEST// ;echo "fit the buffer." \
+//TEST// ;echo "Last Line." \
+//TEST// ) | valgrind --leak-check=full --log-file=strlist.lisval \
+//TEST// ./strlist >strlist.lisout 2>&1
+//TEST// mkpspdf strlist.ps strlist.c* strlist.lis*
+*/
+
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: strlist.c,v 1.2 2012-02-15 20:44:42-08 - - $
+a21 1
+// LINTED (argument unused in function)
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: strlist.c,v 1.1 2012-02-09 18:53:12-08 - - $
+d22 1
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: strlist.c,v 1.3 2011-02-03 17:39:07-08 - - $
+a27 2
+      node_ref new = NULL;
+      char *nlpos = NULL;
+d35 1
+a35 1
+      nlpos = strchr (buffer, '\n');
+d47 1
+a47 1
+      new = malloc (sizeof (struct node));
+@

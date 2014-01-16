@@ -1,0 +1,293 @@
+head	1.10;
+access;
+symbols;
+locks;
+comment	@.\" @;
+
+
+1.10
+date	2012.11.08.02.36.47;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.11.08.02.35.40;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.11.02.01.53.04;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.02.15.04.51.15;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.02.15.03.10.33;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.02.15.03.08.28;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2011.11.02.05.16.39;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2011.04.30.02.52.38;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2011.02.04.22.24.05;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2011.02.04.22.23.50;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@-
+@
+text
+@.so Tmac.mm-etc
+.if t .Newcentury-fonts
+.INITR* \n[.F]
+.TITLE CMPS-012M Fall\~2012 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.9 2012-11-07 18:35:40-08 - - $"
+.PWD
+.H 1 "Overview"
+This lab will introduce you to header
+.=V ( .h )
+files,
+also known as
+.V= #include
+files,
+which are C's equivalent of interfaces,
+and implementation files
+.=V ( .c )
+which are C's equivalent of implementation files.
+C has no keyword
+.V= private ,
+but its equivalent is to put hidden information only in
+implementation files.
+.P
+In this program you will use separate compilation to implement a
+simple queue of lines in C.
+.H 1 "Subdirectory intx"
+Sample code has been provided.
+First, study the trivial
+.V= intx
+application which shows how to do separate compilation using
+header files and implementation files.
+Inspect the following files\(::
+.nr FILE_Pi \w'\f[CB]Makefile\f[R]\0\0'
+.VL \n[FILE_Pi]u
+.V=LI intx.h
+The interface to the
+.V= intx
+ADT showing the constructor, destructor, accessors, and mutators.
+In Java these would be the public functions.
+.V=LI intx.c
+The implemention of the ADT, showing the private functions and fields.
+Note that the 
+.V= struct 
+fields are thus hidden from the client.
+.V=LI main.c
+Shows how to create and access an ADT.
+The application itself is trivial.
+.V=LI Makefile
+Builds each object
+.=V ( .o )
+file and then links them into an executable image.
+Note how it creates dependencies by editing itself.
+.LE
+.H 1 "Subdirectory queue"
+Provides a simple queueing application,
+where each line of the input is read into a queue.
+The queue is then printed and the program stops.
+The idea of a
+.E= stub
+is introduced.
+Incomplete code is just represented by a print statement which must
+eventually be replaced by actual code.
+The following command
+will tell you where all of the stub calls are\(::
+.V= "grep STUB *.[hc]"
+.P
+You must implement
+.V= new_queue ,
+.V= insert_queue ,
+.V= remove_queue .
+your implementation must be done via the several files,
+whose object modules are linked together into a single executable.
+Remove any complaints
+.V= valgrind
+may have about
+memory access or memory leaks.
+Run
+.V= checksource .
+.H 1 "What to Submit"
+The
+.V= Makefile
+and all source code, but no object files or executable binaries.
+Do a build in your own directory to verify that it works.
+Look in the submit volume to verify that there are no missing files.
+If you do pair programming,
+also follow the instructions in
+.V= /afs/cats.ucsc.edu/courses/cmps012b-wm/Syllabus/pair-programming/ .
+.FINISH
+@
+
+
+1.9
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab7c-headers-adts.mm,v 1.8 2012-11-01 18:53:04-07 - - $"
+d70 1
+a70 1
+Make sure your implementation is done via the several files,
+d72 1
+a72 1
+Make sure that
+d74 4
+a77 4
+does not have any memory access complaints or memory leak complaints.
+Make sure
+.V= checksource
+does not complain.
+@
+
+
+1.8
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab7c-headers-adts.mm,v 1.7 2012-02-14 20:51:15-08 - - $"
+a72 4
+.V= lint (1)
+does not complain about your code,
+except for that which is explicitly permitted.
+Make sure that
+@
+
+
+1.7
+log
+@-
+@
+text
+@d4 2
+a5 2
+.TITLE CMPS-012M Spring\~2012 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.6 2012-02-14 19:10:33-08 - - $"
+@
+
+
+1.6
+log
+@-
+@
+text
+@d5 1
+a5 1
+.RCS "$Id: lab7c-headers-adts.mm,v 1.5 2012-02-14 19:08:28-08 - - $"
+a43 14
+.V=LI auxlib.h
+Some additional useful functions which add useful things to the 
+language.
+See the comments for details.
+This module should be considered as an extension to the 
+standard libraries.
+.V=LI auxlib.c
+The implementation.\*F
+.FS
+.RI "/* You are not expected to understand this */"
+.br
+\[em]
+.V= http://cm.bell-labs.com/cm/cs/who/dmr/odd.html
+.FE
+@
+
+
+1.5
+log
+@-
+@
+text
+@a3 1
+.sy echo \n[.F] >log
+d5 1
+a5 1
+.RCS "$Id: lab7c-headers-adts.mm,v 1.4 2011-11-01 22:16:39-07 - - $"
+@
+
+
+1.4
+log
+@-
+@
+text
+@d5 2
+a6 2
+.TITLE CMPS-012M Fall\~2011 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.3 2011-04-29 19:52:38-07 - - $"
+@
+
+
+1.3
+log
+@-
+@
+text
+@d5 2
+a6 2
+.TITLE CMPS-012M Spring\~2011 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.2 2011-02-04 14:24:05-08 - - $"
+@
+
+
+1.2
+log
+@-
+@
+text
+@d5 2
+a6 2
+.TITLE CMPS-012M Winter\~2011 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.1 2011-02-04 14:23:50-08 - - $"
+@
+
+
+1.1
+log
+@-
+@
+text
+@d5 2
+a6 2
+.TITLE CMPS-012M Fall\~2010 Lab\~7 "Header files and ADTs"
+.RCS "$Id: lab7c-headers-adts.mm,v 1.3 2011-02-04 14:23:04-08 - - $"
+@

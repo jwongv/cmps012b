@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2012.10.15.01.41.35;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.09.20.06.01;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@Name: Jacky Wong
+Username: jagwong@@ucsc.edu
+ID: 1281439
+# $Id: README,v 1.1 2012-10-09 13:06:01-07 - - $
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 4
+a4 1
+# $Id: README,v 1.1 2012-09-21 18:45:54-07 - - $
+@

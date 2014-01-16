@@ -1,0 +1,1023 @@
+head	1.46;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.46
+date	2012.12.08.01.07.47;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2012.12.08.00.56.13;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2012.12.08.00.52.28;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2012.12.08.00.51.46;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2012.12.08.00.39.18;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2012.12.08.00.18.47;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2012.12.08.00.06.31;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2012.12.08.00.00.33;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2012.12.07.23.57.32;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2012.12.07.23.56.40;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2012.12.07.21.23.55;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2012.12.07.21.23.02;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2012.12.07.21.19.43;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2012.12.07.21.18.17;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2012.12.07.21.02.04;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2012.12.07.20.59.12;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2012.12.07.20.56.20;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2012.12.07.20.55.35;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2012.12.07.20.54.47;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2012.12.07.20.32.44;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2012.12.07.11.51.55;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2012.12.07.11.22.42;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2012.12.07.09.58.21;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2012.12.07.07.46.39;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2012.12.07.07.42.57;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2012.12.07.07.42.09;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2012.12.07.07.41.19;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2012.12.07.07.40.29;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2012.12.07.07.37.23;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2012.12.07.07.37.04;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2012.12.07.07.36.04;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2012.12.07.07.33.50;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2012.12.07.07.32.26;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2012.12.07.07.26.46;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2012.12.07.07.25.46;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2012.12.07.07.21.25;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2012.12.07.07.19.42;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2012.12.07.07.18.55;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2012.12.07.07.09.41;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2012.12.07.07.08.39;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.12.07.07.05.08;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.12.07.07.04.24;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.12.07.06.53.44;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.12.07.06.53.15;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.11.21.02.22.12;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.11.17.02.05.22;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@-
+@
+text
+@// $Id: spellchk.c,v 1.45 2012-12-07 16:56:13-08 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// Michael Ungerer - mungerer@@ucsc.edu
+
+#include <errno.h>
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <ctype.h>
+
+#include "debugf.h"
+#include "hashset.h"
+#include "yyextern.h"
+
+#define STDIN_NAME       "-"
+#define DEFAULT_DICTNAME "/usr/share/dict/words"
+#define DEFAULT_DICT_POS 0
+#define EXTRA_DICT_POS   1
+#define NUMBER_DICTS     2
+
+
+
+void print_error (char *object, char *message) {
+   fflush (NULL);
+   fprintf (stderr, "%s: %s: %s\n", Exec_Name, object, message);
+   fflush (NULL);
+   Exit_Status = EXIT_FAILURE;
+}
+
+FILE *open_infile (char *filename) {
+   FILE *file = fopen (filename, "r");
+   if (file == NULL) print_error (filename, strerror (errno));
+   DEBUGF ('m', "filename = \"%s\", file = 0x%p\n", filename, file);
+   return file;
+}
+
+void spellcheck (char *filename, hashset_ref hashset) {
+   yylineno = 1;
+   DEBUGF ('m', "filename = \"%s\", hashset = 0x%p\n",
+                filename, hashset);
+   for (;;) {
+      int token = yylex ();
+      if (token == 0) break;
+      DEBUGF ('m', "line %d, yytext = \"%s\"\n", yylineno, yytext);
+      bool initialword = has_hashset(hashset,yytext);
+      int i = 0;
+      char *originalword = strdup(yytext);
+      while (yytext[i] != '\0'){
+         yytext[i] = tolower (yytext[i]);
+         i++;
+      }
+      bool lowerword = has_hashset(hashset, yytext);
+      if (!initialword && !lowerword){
+         fflush(NULL);
+         fprintf (stderr, "%s is mispelled!\n", originalword);
+         fflush(NULL);
+         Exit_Status = EXIT_FAILURE;
+      }
+         free (originalword);
+   }
+}
+
+typedef char *cstring;
+
+void load_dictionary (char *dictionary_name, hashset_ref hashset) {
+   char buffer [1000];
+   if (dictionary_name == NULL) return;
+   DEBUGF ('m', "dictionary_name = \"%s\", hashset = %p\n",
+           dictionary_name, hashset);
+   FILE *dictionary = open_infile (dictionary_name);
+   if (dictionary != NULL){
+      for (;;){
+          cstring line;
+          line = fgets(buffer, sizeof buffer, dictionary);
+          if (line == NULL) break;
+          cstring nlpos = strchr (buffer, '\n');
+          if (nlpos != NULL)
+             *nlpos = '\0';
+          put_hashset (hashset, line);
+      }
+   fclose (dictionary);
+   }else Exit_Status = 2;
+      
+}
+ 
+
+int main (int argc, char **argv) {
+   bool clusteropt = false;
+   Exec_Name = basename (argv[0]);
+   char *default_dictionary = DEFAULT_DICTNAME;
+   char *user_dictionary = NULL;
+   hashset_ref hashset = new_hashset ();
+   yy_flex_debug = false;
+
+   // Scan the arguments and set flags.
+   opterr = false;
+   int xopt_counter = 0;
+   for (;;) {
+      int option = getopt (argc, argv, "nxyd:@@:");
+      if (option == EOF) break;
+      switch (option) {
+         char optopt_string[16]; // used in default:
+         case 'd': user_dictionary = optarg;
+                   break;
+         case 'n': default_dictionary = NULL;
+                   break;
+         case 'x': clusteropt = true;
+                   ++xopt_counter;
+                   break;
+         case 'y': yy_flex_debug = true;
+                   break;
+         case '@@': set_debugflags (optarg);
+                   if (strpbrk (optarg, "@@y")) yy_flex_debug = true;
+                   break;
+         default : sprintf (optopt_string, "-%c", optopt);
+                   print_error (optopt_string, "invalid option");
+                   break;
+      }
+   }
+   if (default_dictionary == NULL && user_dictionary == NULL){
+      printf("failed!");
+      exit(EXIT_FAILURE);
+   }
+   // Load the dictionaries into the hash table.
+   load_dictionary (default_dictionary, hashset);
+   load_dictionary (user_dictionary, hashset);
+
+   if (clusteropt) clusters(hashset, xopt_counter);
+   // Read and do spell checking on each of the files.
+   if (optind >= argc) {
+      yyin = stdin;
+      spellcheck (STDIN_NAME, hashset);
+   }else {
+      int fileix = optind;
+      for (; fileix < argc; ++fileix) {
+         DEBUGF ('m', "argv[%d] = \"%s\"\n", fileix, argv[fileix]);
+         char *filename = argv[fileix];
+         if (strcmp (filename, STDIN_NAME) == 0) {
+            yyin = stdin;
+            spellcheck (STDIN_NAME, hashset);
+         }else {
+            yyin = open_infile (filename);
+            if (yyin == NULL) continue;
+            spellcheck (filename, hashset);
+            fclose (yyin);
+         }
+      }
+   }
+   free_hashset(hashset);
+   yycleanup ();
+   return Exit_Status;
+}
+
+@
+
+
+1.45
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.44 2012-12-07 16:52:28-08 - - $
+d18 1
+a18 1
+#define DEFAULT_DICTNAME "/afs/cats.ucsc.edu/courses/cmps012b-wm/usr/dict/words"
+@
+
+
+1.44
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.43 2012-12-07 16:51:46-08 - - $
+d18 1
+a18 1
+#define DEFAULT_DICTNAME "/usr/share/dict/words"
+@
+
+
+1.43
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.42 2012-12-07 16:39:18-08 - - $
+d151 1
+a151 1
+//   free_hashset(hashset);
+@
+
+
+1.42
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.41 2012-12-07 16:18:47-08 - - $
+d151 1
+a151 1
+   free_hashset(hashset);
+@
+
+
+1.41
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: spellchk.c,v 1.40 2012-12-07 16:06:31-08 - - $
+@
+
+
+1.40
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.39 2012-12-07 16:00:33-08 - - $
+d16 1
+a16 1
+#define DEFAULT_DICTNAME "/afs/cats.ucsc.edu/courses/cmps012b-wm/usr/dict/words"
+@
+
+
+1.39
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.26 2012-12-07 03:51:55-08 - - $
+d149 1
+a149 1
+   
+@
+
+
+1.38
+log
+@-
+@
+text
+@a127 2
+   printhash(hashset);
+
+@
+
+
+1.37
+log
+@-
+@
+text
+@d57 1
+@
+
+
+1.36
+log
+@-
+@
+text
+@d71 9
+a79 10
+   for (;;){
+       cstring line;
+       line = fgets(buffer, sizeof buffer, dictionary);
+       if (line == NULL) break;
+       cstring nlpos = strchr (buffer, '\n');
+       if (nlpos != NULL)
+          *nlpos = '\0';
+       //else print error if unterminated line
+       put_hashset (hashset, line);
+   }
+d81 2
+a82 1
+   }
+@
+
+
+1.35
+log
+@-
+@
+text
+@a87 1
+   printf("doesthiswork");
+a90 1
+   printf("beforenew");
+a91 1
+   printf("newhashmade");
+@
+
+
+1.34
+log
+@-
+@
+text
+@d69 2
+a70 1
+   FILE *dictionary = fopen (dictionary_name, "r");
+d82 1
+@
+
+
+1.33
+log
+@-
+@
+text
+@d69 1
+a69 1
+   FILE *dictionary = open_infile (dictionary_name);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d53 5
+a57 2
+      if (!initialword && !lowerword)
+         printf ("%s is mispelled!\n", originalword);
+d69 1
+a69 1
+   FILE *dictionary = fopen (dictionary_name, "r");
+@
+
+
+1.31
+log
+@-
+@
+text
+@d47 1
+a47 1
+      char *originalword = yytext;
+d55 1
+@
+
+
+1.30
+log
+@-
+@
+text
+@a46 1
+      char c;
+d49 1
+a49 2
+         c = yytext[i];
+         putchar (tolower(c));
+@
+
+
+1.29
+log
+@-
+@
+text
+@d50 1
+@
+
+
+1.28
+log
+@-
+@
+text
+@d9 1
+d48 1
+a48 1
+      char **originalword = yytext;
+@
+
+
+1.27
+log
+@-
+@
+text
+@d44 11
+a54 1
+      STUBPRINTF ("%s: %d: %s\n", filename, yylineno, yytext);
+@
+
+
+1.26
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.24 2012-12-07 01:58:21-08 - - $
+d83 1
+d94 1
+d116 1
+a116 1
+   if (clusteropt) clusters(hashset);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d112 2
+@
+
+
+1.24
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.23 2012-12-06 23:46:39-08 - - $
+d15 1
+a15 1
+#define DEFAULT_DICTNAME "/usr/share/dict/words"
+@
+
+
+1.23
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.22 2012-12-06 23:42:57-08 - - $
+d71 1
+d92 1
+a92 1
+         case 'x': STUBPRINTF ("-x\n");
+d112 1
+@
+
+
+1.22
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.21 2012-12-06 23:42:09-08 - - $
+d59 1
+a59 1
+       if (EOF) break;
+d66 1
+a66 1
+
+@
+
+
+1.21
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.20 2012-12-06 23:41:19-08 - - $
+d20 1
+a20 1
+char buffer [1000];
+d51 1
+d59 1
+a59 1
+       if (line == NULL) break;
+@
+
+
+1.20
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.19 2012-12-06 23:40:29-08 - - $
+d20 1
+a69 1
+   char buffer [1000];
+@
+
+
+1.19
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.18 2012-12-06 23:37:23-08 - - $
+a49 1
+   char buffer [1000];
+d69 1
+@
+
+
+1.18
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.17 2012-12-06 23:37:04-08 - - $
+d55 1
+a55 1
+   while (!EOF){
+d58 1
+@
+
+
+1.17
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.16 2012-12-06 23:36:04-08 - - $
+d55 1
+a55 1
+   while (!EOF (dictionary)){
+@
+
+
+1.16
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.15 2012-12-06 23:33:50-08 - - $
+d55 1
+a55 1
+/*   while (!feof (dictionary)){
+d64 1
+a64 1
+*/
+@
+
+
+1.15
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.14 2012-12-06 23:32:26-08 - - $
+d55 1
+a55 1
+   while (!feof (dictionary)){
+d64 1
+a64 1
+
+@
+
+
+1.14
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.13 2012-12-06 23:26:46-08 - - $
+a19 1
+//typedef char *cstring;
+d47 2
+d55 1
+a55 1
+/*   while (!feof (dictionary)){
+d64 1
+a64 1
+*/
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.12 2012-12-06 23:25:46-08 - - $
+d54 1
+a54 1
+   while (!feof (dictionary)){
+d63 1
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.11 2012-12-06 23:21:25-08 - - $
+d20 1
+a20 1
+typedef char *cstring;
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.2 2012-11-20 18:22:12-08 - - $
+d64 1
+a64 1
+
+@
+
+
+1.10
+log
+@-
+@
+text
+@d67 1
+@
+
+
+1.9
+log
+@-
+@
+text
+@d70 1
+@
+
+
+1.8
+log
+@-
+@
+text
+@d71 1
+@
+
+
+1.7
+log
+@-
+@
+text
+@d15 1
+a15 1
+#define DEFAULT_DICTNAME "cmps012b-wm/usr/dict/words"
+@
+
+
+1.6
+log
+@-
+@
+text
+@d15 1
+a15 1
+#define DEFAULT_DICTNAME "/afs/cats.ucsc.edu/courses/cmps012b-wm/usr/dict/words"
+@
+
+
+1.5
+log
+@-
+@
+text
+@d15 1
+a15 1
+#define DEFAULT_DICTNAME "/afs/cats.ucsc.edu/courses/cmps012b-wm/usr/share/dict/words"
+@
+
+
+1.4
+log
+@-
+@
+text
+@d15 1
+a15 1
+#define DEFAULT_DICTNAME "/usr/share/dict/words"
+@
+
+
+1.3
+log
+@-
+@
+text
+@d55 1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.1 2012-11-16 18:05:22-08 - - $
+d20 2
+d49 1
+d53 9
+a61 1
+   STUBPRINTF ("Open dictionary, load it, close it\n");
+d64 1
+d95 4
+a98 1
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: spellchk.c,v 1.2 2012-02-22 19:50:19-08 - - $
+a19 3
+char *execname = NULL;
+int exit_status = EXIT_SUCCESS;
+
+d22 1
+a22 1
+   fprintf (stderr, "%s: %s: %s\n", execname, object, message);
+d24 1
+a24 1
+   exit_status = EXIT_FAILURE;
+d54 1
+a54 2
+   execname = basename (argv[0]);
+   set_execname (execname);
+d110 1
+a110 1
+   return exit_status;
+@

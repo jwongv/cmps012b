@@ -1,0 +1,46 @@
+sysname  = "Linux"
+nodename = "unix2.ic.ucsc.edu"
+release  = "2.6.32-220.23.1.el6.x86_64"
+version  = "#1 SMP Mon Jun 18 18:58:52 BST 2012"
+machine  = "x86_64"
+
+           (nil): NULL - null pointer
+
+Addresses of some local variables:
+  0x7fff2f21b60c: &level - address of a stack variable at level 5
+  0x7fff2f21b64c: &level - address of a stack variable at level 4
+  0x7fff2f21b68c: &level - address of a stack variable at level 3
+  0x7fff2f21b6cc: &level - address of a stack variable at level 2
+  0x7fff2f21b70c: &level - address of a stack variable at level 1
+  0x7fff2f21b754: &main_local - address of a local variable in main
+  0x7fff2f21b74c: &argc - address of argc
+  0x7fff2f21b740: &argv - address of argv
+  0x7fff2f21b868: argv - address of arg vector
+  0x7fff2f21b888: environ - address of environ vector
+  0x7fff2f21d1cd: argv[ 0] = "./prthexaddr"
+  0x7fff2f21d1da: argv[ 1] = "hello"
+  0x7fff2f21d1e0: argv[ 2] = "world"
+  0x7fff2f21dfea: stack_bottom (environ) - byte at bottom of stack
+
+Addresses of some static variables:
+        0x4006f8: printf - (text) address of the printf() function
+        0x4007d0: &_start - start of program text
+        0x400aaf: main - (text) address of the main() function
+        0x400f06: &_etext - end of program text
+        0x6016c0: &init_var - address of an init static variable
+        0x6016e0: &_edata - end of init data segment
+        0x601700: &uninit_var1 - address of an uninit static variable1
+        0x602700: &uninit_var2 - address of an uninit static variable2
+        0x603700: &_end - end of uninit data segment
+
+Addresses of some heap variables:
+        0x856010: heap_variable - heap variable  0
+        0x856fc0: heap_variable - heap variable  1
+        0x857f70: heap_variable - heap variable  2
+        0x858f20: heap_variable - heap variable  3
+        0x859ed0: heap_variable - heap variable  4
+        0x85ae80: heap_variable - heap variable  5
+        0x85be30: heap_variable - heap variable  6
+        0x85cde0: heap_variable - heap variable  7
+        0x85dd90: heap_variable - heap variable  8
+        0x85ed40: heap_variable - heap variable  9

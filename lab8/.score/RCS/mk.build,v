@@ -1,0 +1,44 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2012.03.08.21.21.24;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.29.01.02.06;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@#!/bin/sh
+# $Id: mk.build,v 1.1 2012-02-28 17:02:06-08 - - $
+checksource Makefile l8stat.c 2>&1 | tee checksource.log
+gmake 2>&1 | tee make.log
+@
+
+
+1.1
+log
+@-
+@
+text
+@d2 2
+a3 2
+# $Id: mk.build,v 1.1 2011-05-26 20:37:48-07 - - $
+checksource Makefile l9stat.c 2>&1 | tee checksource.log
+@

@@ -1,0 +1,68 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2012.11.01.00.12.51;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.31.20.12.50;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@// $Id: counted_queue.java,v 1.1 2012-10-31 13:12:50-07 - - $
+
+class counted_queue<item_t> extends queue<item_t>
+                            implements Iterable<item_t> {
+   private int count = 0;
+
+   public void insert (item_t item) {
+      super.insert (item);
+      ++count;
+   }
+
+   public item_t remove() {
+      item_t result = super.remove();
+      --count;
+      return result;
+   }
+
+   public int count() {
+      return count;
+   }
+
+   public String toString() {
+      return "[" + count + ", " + super.toString() + "]";
+   }
+
+}
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: counted_queue.java,v 1.1 2012-10-30 17:35:27-07 - - $
+d4 1
+a4 1
+                           implements Iterable<item_t> {
+@

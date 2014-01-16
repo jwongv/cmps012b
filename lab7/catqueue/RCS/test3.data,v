@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.1
+date	2012.02.15.04.32.33;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@-
+@
+text
+@$Id: test3.data,v 1.1 2011-04-29 19:54:20-07 - - $
+Test data 3 line 1.
+Test data 3 line 2.
+Test data 3 line 3.
+@

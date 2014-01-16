@@ -1,0 +1,164 @@
+head	1.4;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.4
+date	2012.02.16.04.47.04;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.02.15.04.44.24;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.02.15.03.53.18;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.02.15.03.50.35;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@-
+@
+text
+@/* $Id: intx.h,v 1.3 2012-02-14 20:44:24-08 - - $ */
+
+#ifndef __INTX_H__
+#define __INTX_H__
+
+#include <stdbool.h>
+
+/*
+* NAME
+*    intx ADT
+*
+* DESCRIPTION
+*    A simple ADT that permits the holding of an integer in a box
+*    similar to the way Java uses an `Integer' to box an `int'.
+*/
+
+typedef struct intx *intx_ref;
+   /*
+   * The handle pointing at the `intx' box.
+   */
+
+intx_ref new_intx (void);
+   /*
+   * Constructor: create a new `intx' box initialized to 0.
+   * Postcond:    new intx box is returned.
+   */
+
+intx_ref new1_intx (int initvalue);
+   /*
+   * Constructor: create a new `intx' box initialized by caller.
+   * Postcond:    new intx box is returned.
+   */
+
+void free_intx (intx_ref this);
+   /*
+   * Destructor: destroys an allocated box
+   * Precond:    box created by new_intx/1.
+   * Postcond:   this pointer is dangling.
+   */
+
+int get_intx (intx_ref this);
+   /*
+   * Accessor:   retrieves the integer from the box.
+   * Precond:    valid handle to an intx.
+   * Postcond:   returns the value in the box.
+   */
+
+void put_intx (intx_ref this, int newvalue);
+   /*
+   * Mutator:    replaces the integer in the box with a new one.
+   * Precond:    valid handle to an intx.
+   * Postcond:   old value is lost, new value is kept
+   */
+
+bool is_intx (intx_ref this);
+   /*
+   * Accessor:   check to see if this is really an intx.
+   */
+
+#endif
+
+/*
+*****************************************************************
+
+Notes:
+
+File guards protect the file from multiple inclusion.
+
+A header file specifies only the prototypes for functions,
+similar to the way an interface does in Java.  Everything in the
+header file is `public'.
+
+As a standard, the handle type is defined as a pointer to a
+structure whose fields are secret.
+
+Note that all function names are global and can not be
+overloaded.  So we name a function as in Java and suffix it with
+the last name of the `module' that it belongs to.  Note that in
+the standard C library, there are often common prefixes, such as
+`f-' for file-oriented functions, `str-' for string functions,
+etc.
+
+*****************************************************************
+*/
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: intx.h,v 1.2 2012-02-14 19:53:18-08 - - $ */
+d28 1
+a28 1
+intx_ref new_intx1 (int initvalue);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: intx.h,v 1.1 2012-02-14 19:50:35-08 - - $ */
+d6 1
+a6 1
+#include "bool.h"
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+/* $Id: intx.h,v 1.1 2011-04-29 19:53:56-07 - - $ */
+d6 1
+a6 1
+#include "auxlib.h"
+@

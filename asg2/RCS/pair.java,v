@@ -1,0 +1,59 @@
+head	1.2;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.2
+date	2012.10.29.07.14.59;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.18.20.19.38;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@-
+@
+text
+@// $Id: pair.java,v 1.1 2012-10-18 13:19:38-07 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// ID: 1281439
+
+
+// Trivial class for keeping key and value pairs together.
+// Probably ought to be generic, but for simplicity we don't.
+
+class pair {
+
+   String key;
+   String value;
+
+   pair (String _key, String _value) {
+      key = _key;
+      value = _value;
+   }
+
+}
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 4
+a4 1
+// $Id: pair.java,v 1.1 2007-01-18 15:35:17-08 - - $
+@

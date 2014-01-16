@@ -1,0 +1,322 @@
+head	1.7;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.7
+date	2012.10.29.07.11.20;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.10.29.07.09.53;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.10.29.04.55.42;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.10.29.01.30.58;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.10.28.07.31.06;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.10.17.01.21.51;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.17.01.19.03;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@-
+@
+text
+@// $Id: keyvalue.java,v 1.6 2012-10-29 00:09:53-07 - - $
+// Jacky Wong - jagwong@@ucsc.edu
+// ID: 1281439
+
+import java.io.*;
+import java.util.Scanner;
+import java.util.Iterator;
+import static java.lang.System.*;
+
+class keyvalue {
+
+   static void scanfile (Scanner input, String filename){
+      int numberline = 1;
+      while (input.hasNextLine()) {
+         String line = input.nextLine();
+         line = line.trim();
+         out.printf("%s:%d:%s%n",filename,numberline++,line);
+         String [] parts = line.split("=",2);
+         if(parts[0].length()>0){
+         if(parts[0].charAt(0) == '#'){
+            input.nextLine();
+            continue;
+         }
+         }
+         if(parts.length == 1){
+           if (list.get(parts[0]) != null)
+              out.printf("%s=%s%n",parts[0],list.get(parts[0]));
+           if (list.get(parts[0]) == null)
+              out.printf("%s: not found%n", parts[0]);
+         }
+         if(line.equals("=")){
+           list.printAll(); 
+         }
+         if(parts.length == 2){
+            if(parts[0].equals("") && !parts[1].equals("")){
+               list.printValueMatches(parts[1]);
+            }
+            if(!parts[0].equals("") && parts[1].equals("")){
+              if (list.get(parts[0]) == null)
+                 out.printf("%s: not found%n", parts[0]);
+              else if (list.get(parts[0]) != null){
+                 out.printf("%s=%s%n",parts[0],list.get(parts[0]));
+                 list.delete(parts[0]);
+              }
+            }
+            if(!parts[0].equals("") && !parts[1].equals("")){
+              if(list.get(parts[0]) != null)
+                out.printf("%s=%s%n", parts[0],
+                              list.put(parts[0], parts[1]));
+              list.put(parts[0], parts[1]);
+            }
+         }
+      }
+   }
+
+static linkedlist list;
+
+   public static void main (String[] args) {
+      list = new linkedlist();
+         if(args.length == 0)
+            scanfile (new Scanner (in), "<stdin>");
+         else{
+            for (int argi = 0; argi < args.length; ++argi) {
+               try {
+                  if(args[argi].equals("-"))
+                      scanfile (new Scanner (in), "<stdin>");
+                  else{
+                     String filename = args[argi];
+                     Scanner input = new Scanner (new File (filename));
+                     scanfile (input, filename);
+                     input.close();
+                  }
+               }catch (IOException error) {
+                  messages.warn (error.getMessage());
+               }
+            }
+         }
+
+      exit (messages.exit_status);
+
+   }
+/*
+      ////////// delete these loops and replace with prog //////////
+      for (pair item : list) {
+         out.printf ("%s = %s%n", item.key, item.value);
+      }
+      for (Iterator<pair> itor = list.iterator();
+           itor.hasNext (); ) {
+         pair item = itor.next ();
+         out.printf ("%s = %s%n", item.key, item.value);
+      }
+*/
+
+
+}
+
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 3
+a3 1
+// $Id: keyvalue.java,v 1.5 2012-10-28 21:55:42-07 - - $
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: keyvalue.java,v 1.4 2012-10-28 18:30:58-07 - - $
+d10 2
+a11 1
+   static void scanfile (Scanner input, String filename, linkedlist list) {
+d15 1
+d17 1
+a17 2
+//         String key = parts[0];
+
+d22 1
+d30 1
+a30 1
+           //print out the whole dictionary
+d34 1
+a34 1
+               //All key value pairs whose value fields match
+d37 6
+a42 1
+               //print all keys that match then delete them
+d45 3
+a48 2
+              if(list.put(parts[0], parts[1]) != null)
+                out.printf("%s=%s%n", parts[0], list.put(parts[0], parts[1]));
+a49 2
+
+
+d54 1
+a54 1
+
+d57 1
+a57 1
+      linkedlist list = new linkedlist();
+d59 1
+a59 1
+            scanfile (new Scanner (in), "<stdin>", list);
+d64 1
+a64 1
+                      scanfile (new Scanner (in), "<stdin>", list);
+d68 1
+a68 1
+                     scanfile (input, filename, list);
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: keyvalue.java,v 1.3 2012-10-28 00:31:06-07 - - $
+d10 1
+a10 1
+   static void scanfile (Scanner input, String filename) {
+d15 1
+a15 1
+         String key = parts[0];
+d22 4
+a25 4
+           if (list.get(parts[1]) != null)
+              out.printf("%s=%sn",parts[1],list.get(parts[1]));
+           else
+              out.printf("%s: not found", parts[1]);
+d31 1
+a31 1
+            if(key.equals("") && !parts[1].equals("")){
+d34 1
+a34 1
+            if(!key.equals("") && parts[1].equals("")){
+d37 4
+a40 2
+            if(!key.equals("") && !parts[1].equals("")){
+               //If there is this key, print it. Then replace the value. If no key, insert it lex
+d48 1
+a48 1
+static linkedlist list;
+d51 1
+a51 1
+      list = new linkedlist();
+d53 1
+a53 1
+            scanfile (new Scanner (in), "<stdin>");
+d58 1
+a58 1
+                      scanfile (new Scanner (in), "<stdin>");
+d62 1
+a62 1
+                     scanfile (input, filename);
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: keyvalue.java,v 1.2 2012-10-16 18:21:51-07 - - $
+d16 2
+a17 2
+         String value = parts[1];
+         if (key.charAt(0) == '#'){
+d21 22
+d46 1
+d49 1
+a49 1
+      linkedlist list = new linkedlist();
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: keyvalue.java,v 1.1 2012-10-16 18:19:03-07 - - $
+d3 2
+d10 15
+d27 18
+d46 4
+d59 2
+a60 1
+   }
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: keyvalue.java,v 1.1 2007-01-18 15:35:15-08 - - $
+d9 1
+a9 1
+      strlist list = new strarraylist ();
+d12 2
+a13 2
+      for (strpair pair : list) {
+         out.printf ("%s = %s%n", pair.key, pair.value);
+d15 1
+a15 1
+      for (Iterator<strpair> itor = list.iterator();
+d17 2
+a18 2
+         strpair pair = itor.next ();
+         out.printf ("%s = %s%n", pair.key, pair.value);
+@

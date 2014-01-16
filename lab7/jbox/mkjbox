@@ -1,0 +1,30 @@
+#!/bin/bash
+# $Id: mkjbox,v 1.9 2012-11-07 18:30:24-08 - - $
+
+function catnv() {
+   for arg in $*
+   do
+      if [ "$arg" = "-f" ]
+      then
+         echo -e '\f'
+      else
+         echo ::::::::::::::::::::::::::::::::
+         echo $arg
+         echo ::::::::::::::::::::::::::::::::
+         cat -nv $arg
+      fi
+   done
+}
+
+cid + $0 jbox.java
+javac jbox.java
+echo Main-class: jbox_main >Manifest
+jar cfm jbox.jar Manifest jbox.class jbox_code.class jbox_main.class
+chmod +x jbox.jar
+./jbox.jar >jbox.output
+
+catnv jbox.java -f Manifest jbox.output mkjbox >jbox.lis
+pkill gv
+mkpspdf Listing.jbox.ps jbox.lis
+rm Manifest jbox.jar *.class jbox.output jbox.lis
+

@@ -1,0 +1,3 @@
+bcat: foo: No such file or directory
+bcat: bar: No such file or directory
+bcat: baz: No such file or directory

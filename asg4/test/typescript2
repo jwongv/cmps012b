@@ -1,0 +1,45 @@
+Script started on Thu Feb 15 16:11:03 2007
+$ edfile.perl -e test2.input <script.lsed
+edfile.perl: 5 lines read from test2.input
+edfile.perl: ifoo
+     4: foo
+edfile.perl: ibar
+     4: bar
+edfile.perl: iline3
+     4: line3
+edfile.perl: *
+     0: test1 line0
+     1: test1 line1
+     2: test1 line2
+     3: test1 line3 - last line
+     4: line3
+     5: bar
+     6: foo
+     7: $Id: test2.input,v 1.1 2007-02-15 16:07:54-08 - - $
+edfile.perl: wtest2.output
+edfile.perl: 8 lines written to test2.output
+edfile.perl: ^D
+$ cat -n script.lsed
+     1	ifoo
+     2	ibar
+     3	iline3
+     4	*
+     5	wtest2.output
+$ cat -n test2.input
+     1	test1 line0
+     2	test1 line1
+     3	test1 line2
+     4	test1 line3 - last line
+     5	$Id: test2.input,v 1.1 2007-02-15 16:07:54-08 - - $
+$ cat -n test2.output
+     1	test1 line0
+     2	test1 line1
+     3	test1 line2
+     4	test1 line3 - last line
+     5	line3
+     6	bar
+     7	foo
+     8	$Id: test2.input,v 1.1 2007-02-15 16:07:54-08 - - $
+$ exit
+
+script done on Thu Feb 15 16:11:53 2007

@@ -1,0 +1,241 @@
+head	1.7;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.7
+date	2012.11.15.05.39.16;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2012.11.15.05.35.53;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2012.11.15.05.32.49;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2008.02.28.21.49.24;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2008.02.15.20.59.20;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2008.02.15.20.52.55;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2008.02.15.20.51.49;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@-
+@
+text
+@# $Id: Makefile,v 1.6 2012-11-14 21:35:53-08 - - $
+MKFILE    = Makefile
+DEPSFILE  = ${MKFILE}.deps
+NOINCLUDE = ci clean spotless
+NEEDINCL  = ${filter ${NOINCLUDE}, ${MAKECMDGOALS}}
+SUBMAKE   = ${MAKE} --no-print-directory
+
+GCC       = gcc -g -O0 -Wall -Wextra -std=gnu99
+MAKEDEPS  = cc -MM
+
+CHEADER   = list.h debugf.h
+CSOURCE   = edfile.c ${CHEADER:.h=.c}
+OBJECTS   = ${CSOURCE:.c=.o}
+EXECBIN   = edfile
+SOURCES   = ${CHEADER} ${CSOURCE} ${MKFILE}
+LISTING   = asg4c-edfile.code.ps
+
+all : ${EXECBIN}
+
+${EXECBIN} : ${OBJECTS}
+	${GCC} -o $@@ ${OBJECTS}
+
+%.o : %.c
+	cid + $<
+	${GCC} -c $<
+
+ci : ${SOURCES}
+	cid + ${SOURCES}
+
+lis : ${SOURCES}
+	mkpspdf ${LISTING} ${SOURCES} ${DEPSFILE}
+
+clean :
+	- rm ${OBJECTS} ${DEPSFILE} core
+
+spotless : clean
+	- rm ${EXECBIN}
+
+deps : ${CSOURCE} ${CHEADER}
+	@@ echo "# ${DEPSFILE} created `date`" >${DEPSFILE}
+	${MAKEDEPS} ${CSOURCE} | sort | uniq >>${DEPSFILE}
+
+${DEPSFILE} :
+	@@ touch ${DEPSFILE}
+	${SUBMAKE} deps
+
+again :
+	${MAKE} --no-print-directory spotless deps ci all lis
+
+ifeq "${NEEDINCL}" ""
+include ${DEPSFILE}
+endif
+
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.5 2012-11-14 21:32:49-08 - - $
+d16 1
+a16 1
+LISTING   = ../asg4c-edfile.code.ps
+d31 1
+a31 1
+	mkpspdf ${LISTING} ${SOURCES}
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.4 2008-02-28 13:49:24-08 - - $
+d30 1
+a30 1
+lis : ../${SOURCES}
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.3 2008-02-15 12:59:20-08 - - $
+d4 1
+a4 1
+NOINCLUDE = lint ci clean spotless
+d8 6
+a13 9
+CCOPT     = -D__EXTENSIONS__ -Xc -v -g -xO0
+LDOPT     = -z i_quiet
+LINTOPT   = -D__EXTENSIONS__ -Xa -fd -m -u -x -errchk=%all,no%longptr64
+MAKEDEPS  = cc -xM1
+ENSCOPT   = -GjC -b `pwd | sed 's|^/afs/cats.ucsc.edu/courses/||'`
+
+CSOURCE   = edfile.c list.c auxlib.c
+CHEADER   =          list.h auxlib.h
+OBJECTS   = ${patsubst %.c, %.o, ${CSOURCE}}
+d16 1
+a16 1
+LISTING   = asg4c-edfile.code.ps
+a18 1
+	echo ${NEEDINCL}
+d21 1
+a21 1
+	cc ${CCOPT} ${LDOPT} -o $@@ ${OBJECTS}
+d24 2
+a25 4
+	cc ${CCOPT} -c $<
+
+lint : ${CSOURCE}
+	lint ${LINTOPT} ${CSOURCE}
+d30 2
+a31 6
+lis : ../${LISTING}
+	ghostview -magstep 1 ../${LISTING} &
+
+../${LISTING} : ${SOURCES}
+	- enscript ${ENSCOPT} -p ../${LISTING} ${SOURCES}
+	cd ..; ps2pdf ${LISTING}
+d48 1
+a48 6
+	${SUBMAKE} spotless
+	${SUBMAKE} deps
+	${SUBMAKE} ci
+	${SUBMAKE} lint
+	${SUBMAKE} all
+	${SUBMAKE} lis
+d53 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.2 2008-02-15 12:52:55-08 - - $
+d61 1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.1 2008-02-15 12:51:49-08 - - $
+d8 1
+a8 1
+CCOPT     = -D__EXTENSIONS__ -Xc -v -g -xO0 -xarch=v8
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+# $Id: Makefile,v 1.2 2008-02-15 12:51:40-08 - - $
+d6 1
+d55 1
+a55 1
+	${MAKE} --no-print-directory deps
+d58 5
+a62 5
+	gmake spotless
+	gmake deps
+	gmake ci
+	gmake all
+	gmake lis
+@

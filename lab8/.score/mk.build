@@ -1,0 +1,4 @@
+#!/bin/sh
+# $Id: mk.build,v 1.2 2012-03-08 13:21:24-08 - - $
+checksource Makefile l8stat.c 2>&1 | tee checksource.log
+gmake 2>&1 | tee make.log

@@ -1,0 +1,11 @@
+key=value
+foo=bar
+this is a test
+=
+1=bar
+2=baz
+3=qux
+4=bar
+five=value
+=
+this is the end of file test.in1

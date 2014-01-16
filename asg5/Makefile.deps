@@ -1,0 +1,5 @@
+# Makefile.deps created Tue Nov 20 18:41:08 PST 2012
+debugf.o: debugf.c debugf.h
+hashset.o: hashset.c debugf.h hashset.h strhash.h
+strhash.o: strhash.c strhash.h
+spellchk.o: spellchk.c debugf.h hashset.h yyextern.h

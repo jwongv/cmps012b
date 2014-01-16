@@ -1,0 +1,264 @@
+head	1.5;
+access;
+symbols;
+locks;
+comment	@# @;
+
+
+1.5
+date	2012.10.15.01.41.35;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2012.10.15.00.50.56;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2012.10.14.19.24.00;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2012.10.14.19.15.46;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2012.10.09.20.06.01;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@-
+@
+text
+@//Name: Jacky Wong
+//Username: jagwong@@ucsc.edu
+//ID: 1281439
+
+// $Id: jgrep.java,v 1.4 2012-10-14 17:50:56-07 - - $
+
+//
+// This program is a stub showing how to create a pattern from a
+// regular expression.  It does not handle options or files, and
+// has some other bugs which you must discover and fix.
+//
+
+import java.io.*;
+import java.util.Scanner;
+import java.util.regex.*;
+import static java.lang.System.*;
+
+
+class jgrep {
+
+
+   static void scanfile (Scanner input, String filename,
+                         Pattern pattern) {
+      int nl_counter = 1;
+      int numberofmatches = 0;
+      while (input.hasNextLine()) {
+         String line = input.nextLine();
+         boolean matches = pattern.matcher (line).find();
+         if (flags.reverse_match){
+             matches = !matches;
+         }
+         if (matches) {
+              if(flags.filename_only){
+                   out.println(filename);
+                   ++numberofmatches;
+                   break;
+              }
+         if(flags.filenames.length>1) out.printf("%s:",filename);
+         if(flags.number_lines) out.printf("%d:", nl_counter);
+         out.println(line);
+         ++numberofmatches;
+         }
+         ++nl_counter;
+      } 
+     if(numberofmatches == 0){
+        messages.nomatch();
+     }
+   }
+static int numberofmatches;
+static options flags;
+
+   public static void main (String[] args) {
+
+      if (args.length == 0) {
+         err.printf ("Usage: %s [-ilnv] regex [filename...]%n",
+                     messages.program_name);
+         exit (messages.EXIT_FAILURE);
+      }
+       flags = new options (args);
+
+      try {
+         Pattern pattern = Pattern.compile (flags.regex);
+         if (flags.insensitive){
+               pattern = Pattern.compile (flags.regex,
+                    Pattern.CASE_INSENSITIVE);
+         }
+         else{
+               pattern = Pattern.compile (flags.regex);
+         }
+         if (flags.filenames.length == 0) {
+            scanfile (new Scanner (in), "<stdin>", pattern);
+         }else {
+            for (int flagi=0; flagi<flags.filenames.length; ++flagi){
+               try {
+                  String filename = flags.filenames[flagi];
+                  Scanner input = new Scanner (new File (filename));
+                  scanfile (input, filename, pattern);
+                  input.close();
+               }catch (IOException error) {
+                  messages.warn (error.getMessage());
+               }
+            }
+         }
+      }catch (PatternSyntaxException error) {
+         messages.die (error.getMessage());
+      }
+          exit (messages.exit_status);
+   }
+}
+
+@
+
+
+1.4
+log
+@-
+@
+text
+@d5 1
+a5 1
+// $Id: jgrep.java,v 1.3 2012-10-14 12:24:00-07 - - $
+d35 1
+a46 1
+        exit (messages.exit_status);
+d64 2
+a65 1
+               pattern = Pattern.compile (flags.regex, Pattern.CASE_INSENSITIVE);
+d73 1
+a73 1
+            for (int flagi = 0; flagi < flags.filenames.length; ++flagi) {
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 5
+a5 1
+// $Id: jgrep.java,v 1.2 2012-10-14 12:15:46-07 - - $
+d18 1
+d21 1
+d24 2
+d29 3
+d33 8
+a40 1
+            out.printf ("%s:%s%n", filename, line);
+d42 1
+d44 4
+d49 2
+a50 2
+   
+   options flags;
+a53 1
+      options flags = new options (args);
+d59 1
+d63 6
+d86 1
+a86 1
+      exit (messages.exit_status);
+a87 1
+   
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jgrep.java,v 1.1 2012-10-09 13:06:01-07 - - $
+d59 1
+a59 1
+
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: jgrep.java,v 1.4 2012-10-08 18:58:27-07 - - $
+d24 1
+a24 1
+      }
+d27 1
+a27 26
+   public static void optionflag (String x){
+
+   Pattern insensitive = Pattern.compile ("i");
+   Pattern printfilename = Pattern.compile ("l");
+   Pattern linenumber = Pattern.compile ("n");
+   Pattern allbutpattern = Pattern.compile ("v");
+
+   boolean insensitivematches = insensitive.matcher (x).find();
+   boolean printfilenamematches = printfilename.matcher (x).find();
+   boolean linenumbermatches = linenumber.matcher (x).find();
+   boolean allbutpatternmatches = allbutpattern.matcher (x).find();
+
+   if (insensitivematches){
+      System.out.println("This wont be case sensitive");
+   }
+   if (printfilenamematches){
+      System.out.println("This will print only file name");
+   }
+   if (linenumbermatches){
+      System.out.println("This will print line numbers");
+   }
+   if (allbutpatternmatches){
+      System.out.println("This will print all but lines with the pattern");
+   }
+
+   }
+d31 1
+a31 1
+      options opts = new options (args);
+a37 7
+      String options = args[0];
+      Pattern optionpattern = Pattern.compile ("-");
+      boolean optionmatches = optionpattern.matcher (options).find();
+      if (optionmatches) {
+         optionflag(options);
+      }
+
+d39 2
+a40 3
+         String regex = args[0];
+         Pattern pattern = Pattern.compile (regex);
+         if (args.length == 1) {
+d43 1
+a43 1
+            for (int argi = 1; argi < args.length; ++argi) {
+d45 1
+a45 1
+                  String filename = args[argi];
+@
